@@ -1,0 +1,92 @@
+*{margin:0;padding: 0;font-family: Arial, Helvetica, sans-serif;}
+
+body{
+    min-height: 100vh;
+}
+
+.bt_list{
+    width: 80vw;
+    height: 60px;
+    margin: 5px 0;
+}
+
+.bt_relatorios{
+    width: 90vw;
+    height: 40px;
+    margin: 2px 0;
+}
+
+.titulo{
+    font-size: 16pt;
+    margin: 10px 0;
+}
+
+.sessao_principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista_itens{
+    list-style: none;
+}
+
+.banner{
+    display: inline;
+}
+.header_principal{
+    
+    background-image: url("../galery/bannerPrincipal.png");
+    background-position: top;
+    background-size: cover;
+    height: 100px;
+    opacity: 65%;
+
+}
+.header_secundario{
+    top: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width:90vw;
+}
+
+.logo_target{
+    margin: 5px;
+    opacity: 100%;
+}
+
+.navegacao{
+    background-color: orange;
+    display: flex;
+
+}
+
+.bt_icon{
+    width: 10%;
+}
+.bt_placeholder{
+    width: 70%;
+}
+.bt_nav{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-around;
+    width: 120px;
+}
+
+.rodape{
+    margin: 25px 0 0 0;
+    background-color: orange;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+}
