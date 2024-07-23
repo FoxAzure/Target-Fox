@@ -6,15 +6,17 @@
     <title>Target - Dash</title>
     <link rel="stylesheet" href="src/css/principal.css">
 </head>
-<body>
+<body onload="checklogin()">
     <header>
         <div class="banner">
             <div class="header_principal">
             
             </div>
             <div class="header_secundario">
-                <a href="inicio.html"><img src="src/galery/meta64.png" alt="Logo Target" class="logo_target"></a>
-                <p>Agrovale</p>
+                <a href="inicio.html"><img src="src/galery/logofull1.png" alt="Logo Target" class="logo_target"></a>
+                <div class="user_note">
+                    <p id="username">Agrovale</p>
+                </div>
             </div>
         </div>
         <div class="navegacao">
@@ -31,13 +33,21 @@
             <a href="lista.html">
                 <button class="bt_nav">
                     <div class="bt_icon">
-                        <img src="src/galery/voltar32.png" alt="">
+                        <img src="src/galery/voltar2-32.png" alt="">
                     </div>
                     <div class="bt_placeholder">
                         <p>Relatórios</p>
                     </div>
                 </button>
             </a>
+                <button class="bt_nav" onclick="quitlogin()">
+                    <div class="bt_icon">
+                        <img src="src/galery/sair2-32.png" alt="">
+                    </div>
+                    <div class="bt_placeholder">
+                        <p>Sair</p>
+                    </div>
+                </button>
         </div>
     </header>
     <div class="sessao_principal">
@@ -49,5 +59,7 @@
         <p>Qualidade Agrícola - Agrovale</p>
         <p>Paulo Roberto</p>
     </footer>
+
+    <script src="src/scripts/index.js"></script>
 </body>
 </html>
