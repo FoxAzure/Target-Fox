@@ -122,4 +122,9 @@ body{
 
 .iframeView{
     height: 550px;
+    width: 95%;
+}
+
+.bodyDash{
+    height: 80%;
 }
