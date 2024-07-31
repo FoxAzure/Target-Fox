@@ -99,3 +99,19 @@ function loadDash(id){
     window.location.assign("../dash.html") 
 }
 
+function creatDash(){
+    let idRelatorio = localStorage.getItem("target_IDrelatorio")
+    let Relatorio = Relatorios.filter((item) => item.id == idRelatorio)
+    let titulo = document.querySelector("#tituloDash")
+    let dash = document.querySelector("#iframeView")
+
+    let tituloRelatorio = Relatorio[0].relatorio
+    let urlRelatorio = Relatorio[0].url
+
+
+    if(urlRelatorio.length == 0){
+        urlRelatorio = "../src/erro/erro.html"
+    }
+    titulo.innerHTML = tituloRelatorio
+    dash.src = urlRelatorio
+}

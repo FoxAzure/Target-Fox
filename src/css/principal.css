@@ -4,6 +4,10 @@ body{
     min-height: 100vh;
 }
 
+.none{
+    display: none;
+}
+
 .bt_list{
     width: 80vw;
     height: 60px;
@@ -127,4 +131,30 @@ body{
 
 .bodyDash{
     height: 80%;
+}
+
+.telaErro{
+    /*background-image: url("../galery/login.jpg");*/
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 550px;
+}
+
+.paginaErro{
+    width: 100%;
+    
+}
+
+.avisoErro{
+    margin: 15px 0;
+    font-size: 14pt;
+    color: green;
+    font-weight: bold;
+}
+
+.subavisoerro{
+    color: orange;
 }

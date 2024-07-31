@@ -6,9 +6,19 @@
     <title>Target - Dash</title>
     <link rel="stylesheet" href="src/css/principal.css">
 </head>
-<body onload="checklogin()" class="bodyDash">
+<body onload="checklogin(), creatDash()" class="bodyDash">
     <header>
-
+        <div class="none">
+            <div class="header_principal">
+            
+            </div>
+            <div class="header_secundario">
+                <a href="inicio.html"><img src="src/galery/logofull1.png" alt="Logo Target" class="logo_target"></a>
+                <div class="user_note">
+                    <p id="username">Agrovale</p>
+                </div>
+            </div>
+        </div>
         <div class="navegacao">
             <a href="inicio.html">
                 <button class="bt_nav">
@@ -41,10 +51,11 @@
         </div>
     </header>
     <div class="sessao_principal">
-        <h1 class="titulo">dahs</h1>
+        <h1 class="titulo" id="tituloDash"> </h1>
 
-        <iframe class="iframeView" id="iframeView" src="https://app.powerbi.com/view?r=eyJrIjoiNTZkNzc5MGYtNThjOS00NTVmLTllNTAtZTA4ZTg4ZjMyNTgwIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9" frameborder="0"></iframe>
+        <iframe class="iframeView" id="iframeView" url="" frameborder="0"></iframe>
     </div>
     <script src="src/scripts/index.js"></script>
+    <script src="src/scripts/base.js"></script>
 </body>
 </html>
