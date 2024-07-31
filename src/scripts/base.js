@@ -81,7 +81,7 @@ function creatlistrel(){
     let ListaRelatorios = Relatorios.filter((item)=> item.tag == tag_seletion)
 
     for(let i=0; i<ListaRelatorios.length; i++){
-        listconstruct = listconstruct + "<button class='bt_relatorios' onclick='loadDash'>" + ListaRelatorios[i].relatorio + "</button>"
+        listconstruct = listconstruct + "<button class='bt_relatorios' onclick='loadDash("+ListaRelatorios[i].id+")'>" + ListaRelatorios[i].relatorio + "</button>"
     }
 
 
@@ -93,4 +93,9 @@ function creatlistrel(){
 
 
 
-//<button class="bt_relatorios" onclick="LoadDash()">Perdas na colheita Mecanizada</button>
+function loadDash(id){
+
+    localStorage.setItem("target_IDrelatorio",id)
+    window.location.assign("../dash.html") 
+}
+
