@@ -36,6 +36,8 @@ body{
 
 .lista_itens{
     list-style: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .banner{

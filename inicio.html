@@ -6,7 +6,7 @@
     <title>Target - Inicio</title>
     <link rel="stylesheet" href="src/css/principal.css">
 </head>
-<body onload="checklogin()">
+<body onload="checklogin(),creatlistprincipal()">
     <header>
         <div class="banner">
             <div class="header_principal">
@@ -53,25 +53,7 @@
     <div class="sessao_principal">
         <h1 class="titulo">Gestão da Qualidade Agrícola</h1>
 
-        <ul class="lista_itens">
-            <li>
-                <a href="lista.html"><button class="bt_list">Perdas na colheita</button></a>
-            </li>
-            <li>
-                <button class="bt_list">Preparo de Solo</button>
-            </li>
-            <li>
-                <button class="bt_list">Semente Mecanizada</button>
-            </li>
-            <li>
-                <button class="bt_list">Plantio Mecanizado</button>
-            </li>
-            <li>
-                <button class="bt_list">IUP - Índice de Uniformidade do Plantio</button>
-            </li>
-            <li>
-                <button class="bt_list">Avaliação Drone</button>
-            </li>
+        <ul class="lista_itens" id="listPrincipal">
             
         </ul>
     </div>
@@ -80,5 +62,6 @@
         <p>Paulo Roberto</p>
     </footer>
     <script src="src/scripts/index.js"></script>
+    <script src="src/scripts/base.js"></script>
 </body>
 </html>

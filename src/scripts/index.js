@@ -3,7 +3,7 @@ const User = [
     {id: 1, user: "PAULO", senha: "target2024", name: "Paulo Roberto", level: 0},
     {id: 2, user: "ROMARIO", senha: "target2024", name: "Romario Lima", level: 0},
     {id: 3, user: "FELIPE", senha: "target2024", name: "Felipe Vitturi", level: 0},
-    {id: 4, user: "PLANTIO", senha: "agrovale2024", name: "Plantio", level: 1},
+    {id: 4, user: "AGROVALE", senha: "agrovale2024", name: "Agrovale", level: 1},
 ]
 
 
@@ -40,8 +40,6 @@ function validarlogin(){
 
 
 
-
-
 function checklogin(){
     let username = document.querySelector("#username")
     let user = localStorage.getItem("target_User");
@@ -58,6 +56,8 @@ function checklogin(){
         username.innerHTML = "Bem vindo, " + usernick
     }
 }
+
+
 
 function quitlogin(){
     localStorage.removeItem("target_User")
