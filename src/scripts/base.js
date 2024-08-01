@@ -7,7 +7,7 @@ const Relatorios = [
 
     //Perdas na Colheita
     {id:4, tag: 1, relatorio: "Perdas na Colheita Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODE4MDU0YzItYjBhYS00ZTRmLTk3MWEtMGM0YTAyZTBkZjA4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {id:5, tag: 1, relatorio: "Perdas na Colheita Manual", ativo: true, url: ""},
+    {id:5, tag: 1, relatorio: "Perdas na Colheita Manual", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYTU3YWJkMzItNDM4NC00M2Y4LTlkOTctM2EzZTRhYWI5NTQ4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:6, tag: 1, relatorio: "Relatório por Campo", ativo: false, url: ""},
     {id:7, tag: 1, relatorio: "Relatório Estimado x Real", ativo: false, url: ""},
     {id:8, tag: 1, relatorio: "Relatório das Colhedoras", ativo: true, url: ""},
@@ -29,34 +29,41 @@ const Relatorios = [
 
     //Drone
     {id:16, tag: 6, relatorio: "Drone - Última Avaliação", ativo: true, url: ""},
-
+    {id:16, tag: 6, relatorio: "Avaliação Adubação Socaria", ativo: true, url: ""},
+    {id:17, tag: 6, relatorio: "Avaliação Vinhaça Localizada", ativo: true, url: ""},
 ]
 
 
 const Grupo = [
-    {id: 0, tag: 0, nome: "Equipe Qualidade", level:"0"},
-    {id: 1, tag: 1, nome: "Perdas na Colheita", level: "1"},
-    {id: 2, tag: 2, nome: "Preparo de Solo", level: "1"},
-    {id: 3, tag: 3, nome: "Semente Mecanizada", level: "1"},
-    {id: 4, tag: 4, nome: "Plantio Mecanizado", level: "1"},
-    {id: 5, tag: 5, nome: "IUP - Índice de Uniformidade do Plantio", level: "1"},
-    {id: 6, tag: 6, nome: "Avaliação Drone", level: "1"},
+    {id: 0, tag: 0, nome: "Equipe Qualidade", level:"0", ativo: true},
+    {id: 7, tag: 7, nome: "Boletim Diário Qualidade", level:"1", ativo: false},
+    {id: 1, tag: 1, nome: "Perdas na Colheita", level: "1", ativo: true},
+    {id: 2, tag: 2, nome: "Preparo de Solo", level: "1", ativo: true},
+    {id: 3, tag: 3, nome: "Semente Mecanizada", level: "1", ativo: true},
+    {id: 4, tag: 4, nome: "Plantio Mecanizado", level: "1", ativo: true},
+    {id: 6, tag: 6, nome: "Tratos Culturais", level: "1", ativo: true},
+    {id: 5, tag: 5, nome: "IUP - Índice de Uniformidade do Plantio", level: "1", ativo: true},
 ]
 
 
 function creatlistprincipal(){
+    let Ativo;
     let list = document.querySelector("#listPrincipal")
     let level = localStorage.getItem("target_Level")
     let listconstruct = "";
     switch(level){
         case "0":
             for(let i=0; i<Grupo.length; i++){
-                listconstruct = listconstruct + "<li><button class='bt_list' onclick='tagList("+Grupo[i].tag+","+Grupo[i].id+")'>" + Grupo[i].nome + "</button></li>"
+                Ativo = Grupo[i].ativo
+                if(Ativo==true){
+                    listconstruct = listconstruct + "<li><button class='bt_list' onclick='tagList("+Grupo[i].tag+","+Grupo[i].id+")'>" + Grupo[i].nome + "</button></li>"
+                }
             }
              break
         case "1":
             for(let i=0; i<Grupo.length; i++){
-                if(Grupo[i].level == "1"){
+                Ativo = Grupo[i].ativo
+                if(Grupo[i].level == "1" && Ativo==true){
                     listconstruct = listconstruct + "<li><button class='bt_list' onclick='tagList("+Grupo[i].tag+","+Grupo[i].id+")'>" + Grupo[i].nome + "</button></li>"
                 }
             }
@@ -82,6 +89,7 @@ function tagList(tag_selec,titulo){
 
 
 function creatlistrel(){
+    let Ativo;
     let tag_seletion = localStorage.getItem("target_Tag")
     let titulo = localStorage.getItem("target_Titulo")
 
@@ -92,7 +100,10 @@ function creatlistrel(){
     let ListaRelatorios = Relatorios.filter((item)=> item.tag == tag_seletion)
 
     for(let i=0; i<ListaRelatorios.length; i++){
-        listconstruct = listconstruct + "<button class='bt_relatorios' onclick='loadDash("+ListaRelatorios[i].id+")'>" + ListaRelatorios[i].relatorio + "</button>"
+        Ativo = Relatorios[i].ativo
+        if(Ativo==true){
+            listconstruct = listconstruct + "<button class='bt_relatorios' onclick='loadDash("+ListaRelatorios[i].id+")'>" + ListaRelatorios[i].relatorio + "</button>"
+        }
     }
 
     list.innerHTML = ""
