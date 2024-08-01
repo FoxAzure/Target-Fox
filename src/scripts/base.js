@@ -24,7 +24,7 @@ const Relatorios = [
     {id:13, tag: 4, relatorio: "Plantio Mecanizada", ativo: true, url: ""},
 
     //IUP
-    {id:14, tag: 5, relatorio: "IUP - Última Avaliação", ativo: true, url: ""},
+    {id:14, tag: 5, relatorio: "IUP - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNDEyZmI5YzQtYThjZS00ZWJlLWFmNjMtOWQ1OGE0MGRlYzJiIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:15, tag: 5, relatorio: "IUP - Campos Avaliados", ativo: true, url: ""},
 
     //Drone
