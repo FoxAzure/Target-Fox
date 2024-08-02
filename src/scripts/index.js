@@ -4,6 +4,8 @@ const User = [
     {id: 2, user: "ROMARIO", senha: "target2024", name: "Romario Lima", subnick:"Administrador", level: 0},
     {id: 3, user: "FELIPE", senha: "target2024", name: "Felipe Vitturi", subnick:"Coordenador de Qualidade Agrícola", level: 0},
     {id: 4, user: "AGROVALE", senha: "agrovale2024", name: "Agrovale", subnick:"", level: 1},
+    {id: 5, user: "EDNEI", senha: "santosfc", name: "Ednei Robiatti", subnick:"Gerente SGI", level: 1},
+    {id: 5, user: "JACKSON", senha: "antoniajackson", name: "Jackson Daniel", subnick:"Tec. Qualidade Agrícola", level: 1},
 ]
 
 
