@@ -25,7 +25,7 @@ const Relatorios = [
 
     //IUP
     {id:14, tag: 5, relatorio: "IUP - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNDEyZmI5YzQtYThjZS00ZWJlLWFmNjMtOWQ1OGE0MGRlYzJiIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {id:15, tag: 5, relatorio: "IUP - Campos Avaliados", ativo: true, url: ""},
+    {id:15, tag: 5, relatorio: "IUP - Campos Avaliados", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhkYTFmYTgtZWIxYS00OTAyLWFjZjMtYWRlMDViYzlkYjE2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
     //Drone
     {id:16, tag: 6, relatorio: "Drone - Última Avaliação", ativo: true, url: ""},
