@@ -15,22 +15,23 @@ const Relatorios = [
     {id:10, tag: 1, relatorio: "Relatório por Variedade", ativo: true, url: ""},
 
     //Perparo de Solo
-    {id:11, tag: 2, relatorio: "Avaliação de Composto", ativo: true, url: ""},
+    {id:11, tag: 2, relatorio: "Preparo de Solo", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNjJmNDI0NmEtNTNiNy00M2E0LWIzYmQtODIwMWI1NmMwMTIzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:12, tag: 2, relatorio: "Profund. Cana x Fita Gotejadora", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZTQ1NGJkZjktMjg2OC00M2QwLTk3YTItOTUwYjg3YjU0NGM3IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
     //Semente Mecanizada
-    {id:12, tag: 3, relatorio: "Semente Mecanizada", ativo: true, url: ""},
+    {id:13, tag: 3, relatorio: "Semente Mecanizada", ativo: true, url: ""},
 
     //Plantio Mecanizado
-    {id:13, tag: 4, relatorio: "Plantio Mecanizada", ativo: true, url: ""},
+    {id:14, tag: 4, relatorio: "Plantio Mecanizada", ativo: true, url: ""},
 
     //IUP
-    {id:14, tag: 5, relatorio: "IUP - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNDEyZmI5YzQtYThjZS00ZWJlLWFmNjMtOWQ1OGE0MGRlYzJiIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {id:15, tag: 5, relatorio: "IUP - Campos Avaliados", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhkYTFmYTgtZWIxYS00OTAyLWFjZjMtYWRlMDViYzlkYjE2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:15, tag: 5, relatorio: "IUP - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNDEyZmI5YzQtYThjZS00ZWJlLWFmNjMtOWQ1OGE0MGRlYzJiIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:16, tag: 5, relatorio: "IUP - Campos Avaliados", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhkYTFmYTgtZWIxYS00OTAyLWFjZjMtYWRlMDViYzlkYjE2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
     //Drone
-    {id:16, tag: 6, relatorio: "Drone - Última Avaliação", ativo: true, url: ""},
-    {id:16, tag: 6, relatorio: "Avaliação Adubação Socaria", ativo: true, url: ""},
-    {id:17, tag: 6, relatorio: "Avaliação Vinhaça Localizada", ativo: true, url: ""},
+    {id:17, tag: 6, relatorio: "Drone - Última Avaliação", ativo: true, url: ""},
+    {id:18, tag: 6, relatorio: "Avaliação Adubação Socaria", ativo: true, url: ""},
+    {id:19, tag: 6, relatorio: "Avaliação Vinhaça Localizada", ativo: true, url: ""},
 ]
 
 
