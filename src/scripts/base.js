@@ -1,35 +1,36 @@
 const Relatorios = [
     //Equipe da Qualidade
-    {id:100, tag: 0, relatorio: "Acompanhamento da Equipe", ativo: true, url: ""},
-    {id:101, tag: 0, relatorio: "Semanal da Qualidade", ativo: true, url: ""},
-    {id:102, tag: 0, relatorio: "Mensal da Qualidade", ativo: true, url: ""},
-    {id:103, tag: 0, relatorio: "Mapa das Avaliações", ativo: true, url: ""},
+    {id:100, tag: 0, relatorio: "Acompanhamento da Equipe", ativo: false, url: ""},
+    {id:101, tag: 0, relatorio: "Semanal da Qualidade", ativo: false, url: ""},
+    {id:102, tag: 0, relatorio: "Mensal da Qualidade", ativo: false, url: ""},
+    {id:103, tag: 0, relatorio: "Mapa das Avaliações", ativo: false, url: ""},
 
     //Perdas na Colheita
     {id:300, tag: 2, relatorio: "Perdas na Colheita Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODE4MDU0YzItYjBhYS00ZTRmLTk3MWEtMGM0YTAyZTBkZjA4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:301, tag: 2, relatorio: "Perdas na Colheita Manual", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYTU3YWJkMzItNDM4NC00M2Y4LTlkOTctM2EzZTRhYWI5NTQ4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:302, tag: 2, relatorio: "Relatório por Campo", ativo: false, url: ""},
     {id:303, tag: 2, relatorio: "Relatório Estimado x Real", ativo: false, url: ""},
-    {id:304, tag: 2, relatorio: "Relatório das Colhedoras", ativo: true, url: ""},
-    {id:305, tag: 2, relatorio: "Relatório por Frente", ativo: true, url: ""},
-    {id:306, tag: 2, relatorio: "Relatório por Variedade", ativo: true, url: ""},
+    {id:304, tag: 2, relatorio: "Relatório das Colhedoras", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTU4ZGM4ZjQtZjg3Ni00NzBkLWI0MzQtNTA1NzMzZTdkYTgxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:305, tag: 2, relatorio: "Relatório por Frente", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNTgyMGJmYzItYjU4MS00ZWI5LTk4NjgtNjMxMjRjZDlmMjExIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:306, tag: 2, relatorio: "Relatório por Variedade", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMmY2MjFmNDgtMjU2My00MzhjLTkxMGQtNzZhOWFhNWRlMDcxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
     //Perparo de Solo
     {id:400, tag: 3, relatorio: "Preparo de Solo", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNjJmNDI0NmEtNTNiNy00M2E0LWIzYmQtODIwMWI1NmMwMTIzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:401, tag: 3, relatorio: "Profund. Sulco x Fita Gotejadora", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZTQ1NGJkZjktMjg2OC00M2QwLTk3YTItOTUwYjg3YjU0NGM3IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {id:402, tag: 3, relatorio: "Histórico Profundidade do Preparo", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZTY1MTVkYjktMjUwNS00ZTk5LWJiZDMtY2FlOGYyOTRkMTY2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:402, tag: 3, relatorio: "Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZTY1MTVkYjktMjUwNS00ZTk5LWJiZDMtY2FlOGYyOTRkMTY2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:403, tag: 3, relatorio: "Histórico Paralelismo", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYWU2MzY1OTMtMWMxNy00N2YwLWEwZmYtYjQ4YWQwNWQ5MmJlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
     //Semente Mecanizada
-    {id:500, tag: 4, relatorio: "Semente Mecanizada", ativo: true, url: ""},
+    {id:500, tag: 4, relatorio: "Semente Mecanizada", ativo: false, url: ""},
 
     //Plantio Mecanizado
-    {id:600, tag: 5, relatorio: "Plantio Mecanizada", ativo: true, url: ""},
+    {id:600, tag: 5, relatorio: "Plantio Mecanizada", ativo: false, url: ""},
 
     //Drone
-    {id:700, tag: 6, relatorio: "Drone - Última Avaliação", ativo: true, url: ""},
-    {id:701, tag: 6, relatorio: "Avaliação Adubação Socaria", ativo: true, url: ""},
-    {id:702, tag: 6, relatorio: "Avaliação Vinhaça Localizada", ativo: true, url: ""},
+    {id:700, tag: 6, relatorio: "Drone - Última Avaliação", ativo: false, url: ""},
+    {id:701, tag: 6, relatorio: "Infestação Final Broca - Mecanizada", ativo: false, url: ""},
+    {id:702, tag: 6, relatorio: "Adubação Socaria", ativo: false, url: ""},
+    {id:703, tag: 6, relatorio: "Vinhaça Localizada", ativo: false, url: ""},
 
     //IUP
     {id:800, tag: 7, relatorio: "IUP - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNDEyZmI5YzQtYThjZS00ZWJlLWFmNjMtOWQ1OGE0MGRlYzJiIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
@@ -101,13 +102,13 @@ function creatlistrel(){
     let title = document.querySelector("#titulo_list")
     let listconstruct = "";
 
-    let ListaRelatorios = Relatorios.filter((item)=> item.tag == tag_seletion)
-
+    let ListaRelatorios = Relatorios.filter((item)=> item.tag == tag_seletion && item.ativo == true)
+    console.log(ListaRelatorios)
     for(let i=0; i<ListaRelatorios.length; i++){
-        Ativo = Relatorios[i].ativo
-        if(Ativo==true){
+        //Ativo = Relatorios[i].ativo
+        //if(Ativo==true){
             listconstruct = listconstruct + "<button class='bt_relatorios' onclick='loadDash("+ListaRelatorios[i].id+")'>" + ListaRelatorios[i].relatorio + "</button>"
-        }
+        //}
     }
 
     list.innerHTML = ""
