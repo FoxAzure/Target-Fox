@@ -75,6 +75,7 @@ body{
 .navegacao{
     background-color: orange;
     display: flex;
+    justify-content: left;
 
 }
 
@@ -94,6 +95,12 @@ body{
     border-radius: 8px;
     border: 2px solid rgb(1, 102, 21);
     background-color: rgb(254, 180, 43);
+}
+
+.bt_quit_rigth{
+    display: flex;
+    width: 100%;
+    justify-content: right;
 }
 
 .bt_nav:hover{
@@ -134,12 +141,12 @@ body{
 
 
 .iframeView{
-    height: 550px;
+    min-height: 750px;
     width: 95%;
 }
 
 .bodyDash{
-    height: 80%;
+    height: 80vh;
 }
 
 .telaErro{

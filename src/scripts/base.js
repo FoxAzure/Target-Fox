@@ -21,14 +21,14 @@ const Relatorios = [
     {id:403, tag: 3, relatorio: "Histórico Paralelismo", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYWU2MzY1OTMtMWMxNy00N2YwLWEwZmYtYjQ4YWQwNWQ5MmJlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
     //Semente Mecanizada
-    {id:500, tag: 4, relatorio: "Semente Mecanizada", ativo: false, url: ""},
+    {id:500, tag: 4, relatorio: "Semente Mec - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYTEzODM2NDktZjg3MC00MDVjLWE5ZWEtZDRjZTM5OTNiNjQxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
     //Plantio Mecanizado
     {id:600, tag: 5, relatorio: "Plantio Mecanizada", ativo: false, url: ""},
 
-    //Drone
+    //Tratos Culturais
+    {id:701, tag: 6, relatorio: "Infestação Final Broca - Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhlYjhmNDgtODcyNy00Mzk3LTk4YzYtMDFkNTkwMjk1YjBkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:700, tag: 6, relatorio: "Drone - Última Avaliação", ativo: false, url: ""},
-    {id:701, tag: 6, relatorio: "Infestação Final Broca - Mecanizada", ativo: false, url: ""},
     {id:702, tag: 6, relatorio: "Adubação Socaria", ativo: false, url: ""},
     {id:703, tag: 6, relatorio: "Vinhaça Localizada", ativo: false, url: ""},
 
