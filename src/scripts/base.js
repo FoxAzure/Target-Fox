@@ -24,7 +24,7 @@ const Relatorios = [
     {id:500, tag: 4, relatorio: "Semente Mec - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYTEzODM2NDktZjg3MC00MDVjLWE5ZWEtZDRjZTM5OTNiNjQxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
     //Plantio Mecanizado
-    {id:600, tag: 5, relatorio: "Plantio Mecanizada", ativo: false, url: ""},
+    {id:600, tag: 5, relatorio: "Plantio Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMzQzNTNiOWUtMjY4OC00YmMzLWExZjQtZTgwOWI3MDU0MDc0IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
     //Tratos Culturais
     {id:700, tag: 6, relatorio: "Drone - Última Avaliação", ativo: false, url: ""},
