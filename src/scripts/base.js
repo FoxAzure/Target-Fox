@@ -27,7 +27,6 @@ const Relatorios = [
     {id:600, tag: 5, relatorio: "Plantio Mecanizada", ativo: false, url: ""},
 
     //Tratos Culturais
-    {id:701, tag: 6, relatorio: "Infestação Final Broca - Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhlYjhmNDgtODcyNy00Mzk3LTk4YzYtMDFkNTkwMjk1YjBkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:700, tag: 6, relatorio: "Drone - Última Avaliação", ativo: false, url: ""},
     {id:702, tag: 6, relatorio: "Adubação Socaria", ativo: false, url: ""},
     {id:703, tag: 6, relatorio: "Vinhaça Localizada", ativo: false, url: ""},
@@ -36,6 +35,9 @@ const Relatorios = [
     {id:800, tag: 7, relatorio: "IUP - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNDEyZmI5YzQtYThjZS00ZWJlLWFmNjMtOWQ1OGE0MGRlYzJiIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:801, tag: 7, relatorio: "IUP - Campos Avaliados", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhkYTFmYTgtZWIxYS00OTAyLWFjZjMtYWRlMDViYzlkYjE2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     
+    //Broca
+    {id:900, tag: 8, relatorio: "Infestação Final Broca - Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhlYjhmNDgtODcyNy00Mzk3LTk4YzYtMDFkNTkwMjk1YjBkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:901, tag: 8, relatorio: "Histórico Broca - Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZGU3Mjg0YjktMzdlOC00MmIzLTk4M2QtNzZmY2U5YzA4ZGQ4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 ]
 
 
@@ -48,6 +50,7 @@ const Grupo = [
     {id: 5, tag: 5, nome: "Plantio Mecanizado", level: "1", ativo: true},
     {id: 6, tag: 6, nome: "Tratos Culturais", level: "1", ativo: true},
     {id: 7, tag: 7, nome: "IUP - Índice de Uniformidade do Plantio", level: "1", ativo: true},
+    {id: 8, tag: 8, nome: "Infestação Final - Broca", level: "1", ativo: true},
 ]
 
 
