@@ -24,17 +24,17 @@ const Relatorios = [
     {id:500, tag: 4, relatorio: "Semente Mec - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYTEzODM2NDktZjg3MC00MDVjLWE5ZWEtZDRjZTM5OTNiNjQxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
     //Plantio Mecanizado
-    {id:600, tag: 5, relatorio: "Plantio Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMzQzNTNiOWUtMjY4OC00YmMzLWExZjQtZTgwOWI3MDU0MDc0IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:600, tag: 5, relatorio: "Plantio Mecanizado", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMzQzNTNiOWUtMjY4OC00YmMzLWExZjQtZTgwOWI3MDU0MDc0IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
     //Tratos Culturais
-    {id:700, tag: 6, relatorio: "Drone - Última Avaliação", ativo: false, url: ""},
+    {id:700, tag: 6, relatorio: "Drone - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTllNmI0NTktNDIyOS00ZTJkLTk3OWItMDZlZWIxY2E5MjNjIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:702, tag: 6, relatorio: "Adubação Socaria", ativo: false, url: ""},
     {id:703, tag: 6, relatorio: "Vinhaça Localizada", ativo: false, url: ""},
 
     //IUP
     {id:800, tag: 7, relatorio: "IUP - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNDEyZmI5YzQtYThjZS00ZWJlLWFmNjMtOWQ1OGE0MGRlYzJiIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:801, tag: 7, relatorio: "IUP - Campos Avaliados", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhkYTFmYTgtZWIxYS00OTAyLWFjZjMtYWRlMDViYzlkYjE2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    
+  
     //Broca
     {id:900, tag: 8, relatorio: "Infestação Final Broca - Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhlYjhmNDgtODcyNy00Mzk3LTk4YzYtMDFkNTkwMjk1YjBkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:901, tag: 8, relatorio: "Histórico Broca - Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZGU3Mjg0YjktMzdlOC00MmIzLTk4M2QtNzZmY2U5YzA4ZGQ4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
