@@ -34,6 +34,7 @@ const Relatorios = [
 
     //Tratos Culturais
     {id:700, tag: 6, relatorio: "Drone - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTllNmI0NTktNDIyOS00ZTJkLTk3OWItMDZlZWIxY2E5MjNjIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:701, tag: 6, relatorio: "Drone - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiY2M1ZGE1MGQtNzVmNy00YjE4LThhMGUtZDRiMGM2NzI4YzU0IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:702, tag: 6, relatorio: "Adubação Socaria", ativo: false, url: ""},
     {id:703, tag: 6, relatorio: "Vinhaça Localizada", ativo: false, url: ""},
 
