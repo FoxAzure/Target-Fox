@@ -1,6 +1,6 @@
 const Relatorios = [
     //Equipe da Qualidade
-    {id:100, tag: 0, relatorio: "Acompanhamento da Equipe", ativo: false, url: ""},
+    {id:100, tag: 0, relatorio: "Acompanhamento da Equipe", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNjM1YzVlMzYtMWM0YS00Yjg4LTg0MjItZTg3MTIwNDIyN2ViIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:101, tag: 0, relatorio: "Semanal da Qualidade", ativo: false, url: ""},
     {id:102, tag: 0, relatorio: "Mensal da Qualidade", ativo: false, url: ""},
     {id:103, tag: 0, relatorio: "Acompanhamento Datas de Plantio", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNDExYjFmYmYtZDNjNi00OTk4LWI1MTgtN2M5MjBhYzMzZmVmIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
