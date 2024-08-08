@@ -3,7 +3,7 @@ const Relatorios = [
     {id:100, tag: 0, relatorio: "Acompanhamento da Equipe", ativo: false, url: ""},
     {id:101, tag: 0, relatorio: "Semanal da Qualidade", ativo: false, url: ""},
     {id:102, tag: 0, relatorio: "Mensal da Qualidade", ativo: false, url: ""},
-    {id:103, tag: 0, relatorio: "Mapa das Avaliações", ativo: false, url: ""},
+    {id:103, tag: 0, relatorio: "Acompanhamento Datas de Plantio", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNDExYjFmYmYtZDNjNi00OTk4LWI1MTgtN2M5MjBhYzMzZmVmIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
     //Perdas na Colheita
     {id:300, tag: 2, relatorio: "Perdas na Colheita Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODE4MDU0YzItYjBhYS00ZTRmLTk3MWEtMGM0YTAyZTBkZjA4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
