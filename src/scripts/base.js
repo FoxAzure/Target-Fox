@@ -9,7 +9,7 @@ const Relatorios = [
     {id:300, tag: 2, relatorio: "Perdas na Colheita Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODE4MDU0YzItYjBhYS00ZTRmLTk3MWEtMGM0YTAyZTBkZjA4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:301, tag: 2, relatorio: "Perdas na Colheita Manual", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYTU3YWJkMzItNDM4NC00M2Y4LTlkOTctM2EzZTRhYWI5NTQ4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:302, tag: 2, relatorio: "Relatório por Campo", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiOWUzODE2ODctYTE0Yy00NmUwLWJjMjMtMDBjN2JmODgyZTFhIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {id:303, tag: 2, relatorio: "Relatório Estimado x Real", ativo: false, url: ""},
+    {id:303, tag: 2, relatorio: "Relatório Estimado x Real", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNmFlNWRjMDMtYmJjOS00NGUwLWJiNjItNGI3Y2U4Y2FmNjc3IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:304, tag: 2, relatorio: "Relatório das Colhedoras", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTU4ZGM4ZjQtZjg3Ni00NzBkLWI0MzQtNTA1NzMzZTdkYTgxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:305, tag: 2, relatorio: "Relatório por Frente", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNTgyMGJmYzItYjU4MS00ZWI5LTk4NjgtNjMxMjRjZDlmMjExIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:306, tag: 2, relatorio: "Relatório por Variedade", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMmY2MjFmNDgtMjU2My00MzhjLTkxMGQtNzZhOWFhNWRlMDcxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
