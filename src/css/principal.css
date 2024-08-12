@@ -38,6 +38,12 @@ body{
     background-color: rgb(7, 73, 1);
 }
 
+.bt_indic{
+    background-color: rgb(7, 148, 195);
+}
+.bt_indic:hover{
+    background-color: rgb(1, 101, 135);
+}
 .titulo{
     font-size: 14pt;
     margin: 10px 0;
