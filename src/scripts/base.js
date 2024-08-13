@@ -14,8 +14,8 @@ const Relatorios = [
     {id:305, tag: 2,tipo: 1, relatorio: "Relatório por Frente", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNTgyMGJmYzItYjU4MS00ZWI5LTk4NjgtNjMxMjRjZDlmMjExIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:306, tag: 2,tipo: 1, relatorio: "Relatório por Variedade", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMmY2MjFmNDgtMjU2My00MzhjLTkxMGQtNzZhOWFhNWRlMDcxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     //indicadores Colheta
-    {id:1300, tag: 2,tipo: 2, relatorio: "Indicador Semanal - Mecanizada", ativo: true, url: ""},
-    {id:1301, tag: 2,tipo: 2, relatorio: "Indicador Semanal - Manual", ativo: true, url: ""},
+    {id:1300, tag: 2,tipo: 2, relatorio: "Indicador Semanal - Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMDcyYzgxMGUtNzRkNi00MGVkLWI2ODItZjhlYTU3OWJlZmVhIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:1301, tag: 2,tipo: 2, relatorio: "Indicador Semanal - Manual", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiOGU2YzFmOGYtOTkyNS00NmRjLTkxY2UtMjViYTU3MDg5NWIxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
 
     //Perparo de Solo
