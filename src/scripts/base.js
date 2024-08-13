@@ -4,8 +4,8 @@ const Relatorios = [
     {id:101, tag: 0,tipo: 1, relatorio: "Semanal da Qualidade", ativo: false, url: ""},
     {id:102, tag: 0,tipo: 1, relatorio: "Mensal da Qualidade", ativo: false, url: ""},
     {id:103, tag: 0,tipo: 1, relatorio: "Acompanhamento Datas de Plantio", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNDExYjFmYmYtZDNjNi00OTk4LWI1MTgtN2M5MjBhYzMzZmVmIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {id:104, tag: 0,tipo: 1, relatorio: "Perdas Mecanizada - Ponto a Ponto", ativo: false, url: "https://app.powerbi.com/view?r=eyJrIjoiOGJkMmJiZGMtMTcwYy00YTRhLThiZjUtODEzNzZkYjc3MjA2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {id:105, tag: 0,tipo: 1, relatorio: "Perdas Manual - Ponto a Ponto", ativo: false, url: "https://app.powerbi.com/view?r=eyJrIjoiMTQ3MjUxNGYtYTAxNy00YmNmLTgxY2YtNzJmYmQwMzFjZDMxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:104, tag: 0,tipo: 1, relatorio: "Perdas Mecanizada - Ponto a Ponto", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiOGJkMmJiZGMtMTcwYy00YTRhLThiZjUtODEzNzZkYjc3MjA2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:105, tag: 0,tipo: 1, relatorio: "Perdas Manual - Ponto a Ponto", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTQ3MjUxNGYtYTAxNy00YmNmLTgxY2YtNzJmYmQwMzFjZDMxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
 
 
