@@ -8,7 +8,7 @@ const Relatorios = [
     {id:105, tag: 0,tipo: 1, relatorio: "Perdas Manual - Ponto a Ponto", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTQ3MjUxNGYtYTAxNy00YmNmLTgxY2YtNzJmYmQwMzFjZDMxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
 
-
+    {id:200, tag: 1,tipo: 1, relatorio: "Boletim Diário da Qualidade", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZTZiN2QzOWMtNWIwYi00N2EyLWEyMzEtNzQ3M2M3YjU0MTRjIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
    
     //Perdas na Colheita
     {id:300, tag: 2,tipo: 1, relatorio: "Perdas na Colheita Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODE4MDU0YzItYjBhYS00ZTRmLTk3MWEtMGM0YTAyZTBkZjA4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
@@ -66,7 +66,7 @@ const Relatorios = [
 
 const Grupo = [
     {id: 0, tag: 0, nome: "Equipe Qualidade", level:"0", ativo: true},
-    {id: 1, tag: 1, nome: "Boletim Diário Qualidade", level:"1", ativo: false},
+    {id: 1, tag: 1, nome: "Boletim da Qualidade Agrícola", level:"1", ativo: true},
     {id: 2, tag: 2, nome: "Perdas na Colheita", level: "1", ativo: true},
     {id: 3, tag: 3, nome: "Preparo de Solo", level: "1", ativo: true},
     {id: 4, tag: 4, nome: "Semente Mecanizada", level: "1", ativo: true},

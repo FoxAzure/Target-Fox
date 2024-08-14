@@ -64,13 +64,25 @@ body{
 .banner{
     display: inline;
 }
+
 .header_principal{
     background-image: url("../galery/bannerPrincipal.png");
     background-position: top;
     background-size: cover;
     height: 100px;
-    opacity: 25%;
+    opacity: 20%;
 }
+
+@media only screen and (min-width: 400px) {
+    .header_principal{
+        background-image: url("../galery/bannerFull.png");
+        background-position: top;
+        background-size: cover;
+        height: 100px;
+        opacity: 35%;
+    }
+  }
+
 
 .header_secundario{
     top: 0;
