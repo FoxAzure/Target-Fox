@@ -135,18 +135,25 @@ body{
 .bt_nav:hover{
     background-color: green;
     color: white;
+    cursor: pointer;
 }
 
 .rodape{
     margin: 25px 0 0 0;
     background-color: orange;
-    height: 70px;
+    /*height: 150px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
     bottom: 0;
+}
+
+.sessao_rodape{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
 }
 
 .user_note{
@@ -202,3 +209,6 @@ body{
     color: orange;
 }
 
+.bt_download img{
+    width: 200px;
+}
