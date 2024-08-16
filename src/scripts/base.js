@@ -181,6 +181,7 @@ function creatDash(){
             urlRelatorio = Relatorio[0].url_full
         }else{
             urlRelatorio = Relatorio[0].url
+            titulo.innerHTML = tituloRelatorio
         }
     }else{
         titulo.innerHTML = tituloRelatorio
