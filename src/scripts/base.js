@@ -183,6 +183,7 @@ function creatDash(){
             urlRelatorio = Relatorio[0].url
         }
     }else{
+        titulo.innerHTML = tituloRelatorio
         urlRelatorio = Relatorio[0].url
     }
     
@@ -190,7 +191,7 @@ function creatDash(){
     if(urlRelatorio.length == 0){
         urlRelatorio = "../src/erro/erro.html"
     }
-    titulo.innerHTML = tituloRelatorio
+    
     dash.src = urlRelatorio
 
 }
