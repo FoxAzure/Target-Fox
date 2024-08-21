@@ -154,6 +154,12 @@ body{
     display: flex;
     flex-direction: row;
     margin: 15px;
+
+}
+
+.sessao_rodape a{
+    margin: 0px 15px;
+
 }
 
 .user_note{
