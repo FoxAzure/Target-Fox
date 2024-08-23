@@ -218,3 +218,31 @@ body{
 .bt_download img{
     width: 200px;
 }
+
+
+
+
+
+/*=========================SOBRE=========================*/
+.box_sobre{
+    width: 80%;
+    max-width: 1800px;
+    margin: 25px;
+    opacity: 100%;
+    position: relative;
+    background-color: rgba(54, 54, 54, 0.274);
+    padding: 5px;
+}
+
+.p_sobre{
+    margin: 10px 0;
+}
+
+.background_estilo2{
+    background-image: url("../galery/background_sobre.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    /*height: 79vh;*/
+    width: 100%;
+}

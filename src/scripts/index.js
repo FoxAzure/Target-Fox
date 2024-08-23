@@ -64,6 +64,26 @@ function checklogin(){
     }
 }
 
+function checkConected(){
+    let username = document.querySelector("#username")
+    let nickname = document.querySelector("#subnick")
+    let user = localStorage.getItem("target_User");
+    let usernick = localStorage.getItem("target_Name");
+    let subnick = localStorage.getItem("target_Subnick")
+    let level = localStorage.getItem("target_Level");
+
+    let resultado = User.filter( item =>
+        item.user == user && item.level == level
+    )
+    
+    if(resultado.length==1){
+        window.location.assign("../inicio.html")
+    }else{
+        username.innerHTML = "Bem vindo, " + usernick
+        nickname.innerHTML = subnick
+    }
+}
+
 
 
 function quitlogin(){
