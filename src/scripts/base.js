@@ -39,7 +39,7 @@ const Relatorios = [
 
     //Plantio Mecanizado
     {id:600, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMzQzNTNiOWUtMjY4OC00YmMzLWExZjQtZTgwOWI3MDU0MDc0IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiOTIxM2M0YzYtZmRlMi00OWEwLTk0ODktODE2NDg1ZmE4NDFjIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {id:601, tag: 0,tipo: 1, relatorio: "Plantio Mecanizado - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZWMwOThkMzEtNWY5ZC00NjM1LTgyZWItMTlhMWVhZjRkMDFhIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:601, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZWMwOThkMzEtNWY5ZC00NjM1LTgyZWItMTlhMWVhZjRkMDFhIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:602, tag: 5,tipo: 1, relatorio: "Plantio Manual - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiM2FkMDIyMGEtMDMxNy00MzFhLTk5NjEtMmE5OTk3NTJiODg3IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     //indicadores Colheta
     {id:1600, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Mecanizado", ativo: true, url: ""},
@@ -131,6 +131,8 @@ function creatlistrel(){
     let listconstruct = "";
     let Indicconstuct = "";
 
+    document.title = "AgroTarget - " + Grupo[tag_seletion].nome
+
     let ListaRelatorios = Relatorios.filter((item)=> item.tag == tag_seletion && item.ativo == true && item.tipo == 1)
     console.log(ListaRelatorios)
     for(let i=0; i<ListaRelatorios.length; i++){
@@ -169,12 +171,15 @@ function creatDash(){
     const larguraTela = window.innerWidth;
     const alturaTela = window.innerHeight;
 
+
     let urlRelatorio;
     let idRelatorio = localStorage.getItem("target_IDrelatorio")
     let Relatorio = Relatorios.filter((item) => item.id == idRelatorio)
     let titulo = document.querySelector("#tituloDash")
     let dash = document.querySelector("#iframeView")
 
+
+    document.title = Relatorio[0].relatorio
     let tituloRelatorio = Relatorio[0].relatorio
     
     if(larguraTela>600){
