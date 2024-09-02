@@ -1,15 +1,18 @@
 const Relatorios = [
     //Equipe da Qualidade
     {id:100, tag: 0,tipo: 1, relatorio: "Acompanhamento da Equipe", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNjM1YzVlMzYtMWM0YS00Yjg4LTg0MjItZTg3MTIwNDIyN2ViIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiOTFkM2I2NjgtODQxMi00NDJiLWE3YTUtNDQzZTg4MTliYjYzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {id:101, tag: 0,tipo: 1, relatorio: "Semanal da Qualidade", ativo: false, url: ""},
-    {id:102, tag: 0,tipo: 1, relatorio: "Mensal da Qualidade", ativo: false, url: ""},
+    {id:101, tag: 0,tipo: 1, relatorio: "Acompanhamento Colhedoras", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzllZWFmYzctMzE1YS00NzFmLTg2OTItOTVhMTJiNzYwNDE3IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:103, tag: 0,tipo: 1, relatorio: "Acompanhamento Datas de Plantio", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNDExYjFmYmYtZDNjNi00OTk4LWI1MTgtN2M5MjBhYzMzZmVmIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiMDNjMzZmYWItNDBhZC00NGNkLWJjMjUtNDRhYjNjNWMxNGEyIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:104, tag: 0,tipo: 1, relatorio: "Perdas Mecanizada - Ponto a Ponto", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiOGJkMmJiZGMtMTcwYy00YTRhLThiZjUtODEzNzZkYjc3MjA2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiOTJiMzA2YjQtOTJhMC00NmQ0LWI4NWUtNTU5NWZkODFjYzJhIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:105, tag: 0,tipo: 1, relatorio: "Perdas Manual - Ponto a Ponto", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTQ3MjUxNGYtYTAxNy00YmNmLTgxY2YtNzJmYmQwMzFjZDMxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZWYzM2YyN2MtYWNkNS00MjhhLWJjYzctMDhiNjViNjM2NjIyIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
 
+
+    //Boletim Diário
     {id:200, tag: 1,tipo: 1, relatorio: "Boletim Diário da Qualidade", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZTZiN2QzOWMtNWIwYi00N2EyLWEyMzEtNzQ3M2M3YjU0MTRjIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
    
+
+
     //Perdas na Colheita
     {id:300, tag: 2,tipo: 1, relatorio: "Perdas na Colheita Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODE4MDU0YzItYjBhYS00ZTRmLTk3MWEtMGM0YTAyZTBkZjA4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiYTUxYzM3ZmEtMjIxYS00YmIzLThhNzQtNGM3Nzk2OGRkYzBhIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:301, tag: 2,tipo: 1, relatorio: "Perdas na Colheita Manual", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYTU3YWJkMzItNDM4NC00M2Y4LTlkOTctM2EzZTRhYWI5NTQ4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZTYyYThmNTMtYjAxNC00NWI0LWIzZjUtMjJlNDRmMzU1YTJjIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
@@ -23,6 +26,7 @@ const Relatorios = [
     {id:1301, tag: 2,tipo: 2, relatorio: "Indicador Semanal - Manual", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiOGU2YzFmOGYtOTkyNS00NmRjLTkxY2UtMjViYTU3MDg5NWIxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
 
+
     //Perparo de Solo
     {id:400, tag: 3,tipo: 1, relatorio: "Preparo de Solo", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNjJmNDI0NmEtNTNiNy00M2E0LWIzYmQtODIwMWI1NmMwMTIzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiMzZkNDg2NWItN2YzOC00NGEzLTk2ZmEtYTRlZjE2ODYzMzcwIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:401, tag: 3,tipo: 1, relatorio: "Profund. Sulco x Fita Gotejadora", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZTQ1NGJkZjktMjg2OC00M2QwLTk3YTItOTUwYjg3YjU0NGM3IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZjA3ZTVkZGMtMjY3Ni00MTAxLWFlN2UtZGZjMmNkNjA5NmIyIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
@@ -32,32 +36,43 @@ const Relatorios = [
     {id:411, tag: 3,tipo: 1, relatorio: "Composto - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNmU5ZGY2ZTEtM2MyMi00ZTY2LWI0YzktNjE4NDNkZDBmNWYwIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiY2QxNDQ2MjctNDhkNy00N2I3LThlYzItYzIyYjlhMjU2YTMyIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:412, tag: 3,tipo: 1, relatorio: "Adubação Sulcamento - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiM2Q1OTZmN2YtN2E5Ny00OGRmLWI2YWItNDcyMzZhOGJmZjA2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:413, tag: 3,tipo: 1, relatorio: "Adubação Sulcamento - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYTlmYmI3ZjUtODQ3ZC00YzNmLWFhZGItZmJhYzY3ZjU2OGZkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-
-
+    
+    
+    
     //Semente Mecanizada
     {id:500, tag: 4,tipo: 1, relatorio: "Semente Mec - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYTEzODM2NDktZjg3MC00MDVjLWE5ZWEtZDRjZTM5OTNiNjQxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiYTU0ZTU3ZjAtZjFiZC00NTk1LWFjZWYtOGQwZDgxMTkxNzNmIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    //indicadores Plantio
+    {id:1500, tag: 4,tipo: 2, relatorio: "Indicador Semanal - Semente Mecanizada", ativo: true, url: ""},
+
 
     //Plantio Mecanizado
     {id:600, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMzQzNTNiOWUtMjY4OC00YmMzLWExZjQtZTgwOWI3MDU0MDc0IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiOTIxM2M0YzYtZmRlMi00OWEwLTk0ODktODE2NDg1ZmE4NDFjIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:601, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZWMwOThkMzEtNWY5ZC00NjM1LTgyZWItMTlhMWVhZjRkMDFhIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:602, tag: 5,tipo: 1, relatorio: "Plantio Manual - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiM2FkMDIyMGEtMDMxNy00MzFhLTk5NjEtMmE5OTk3NTJiODg3IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    //indicadores Colheta
-    {id:1600, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Mecanizado", ativo: true, url: ""},
-    {id:1601, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Manual", ativo: true, url: ""},
-
+    //indicadores Plantio
+    {id:1600, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Mecanizado", ativo: true, url: ""},
+    {id:1601, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Manual", ativo: true, url: ""},
 
 
 
     //Tratos Culturais
     {id:700, tag: 6,tipo: 1, relatorio: "Drone - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTllNmI0NTktNDIyOS00ZTJkLTk3OWItMDZlZWIxY2E5MjNjIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:701, tag: 6,tipo: 1, relatorio: "Drone - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiY2M1ZGE1MGQtNzVmNy00YjE4LThhMGUtZDRiMGM2NzI4YzU0IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {id:702, tag: 6,tipo: 1, relatorio: "Adubação Socaria", ativo: false, url: ""},
-    {id:703, tag: 6,tipo: 1, relatorio: "Vinhaça Localizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNGIwOGJlOTMtYWY5Yy00ZGVlLWJjOGItMzU5YzdhNmIzMmQxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZjNmNWYwZTMtYzFhNC00N2U5LWJmNTAtMjZjYmNlNGI5MTQzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:702, tag: 6,tipo: 1, relatorio: "Adubação de Cobertura - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNjI0OTQyNWItMmViYS00YjU2LTllZWMtZjkzMjU3MGVmMDMyIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:703, tag: 6,tipo: 1, relatorio: "Adubação de Cobertura - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiM2FiYjJiYjctNWNhMC00MTBlLTkxNzctMDMzYjMyNmQzNzg5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
+    {id:704, tag: 6,tipo: 1, relatorio: "Vinhaça Localizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNGIwOGJlOTMtYWY5Yy00ZGVlLWJjOGItMzU5YzdhNmIzMmQxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZjNmNWYwZTMtYzFhNC00N2U5LWJmNTAtMjZjYmNlNGI5MTQzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+
+
 
     //IUP
     {id:800, tag: 7,tipo: 1, relatorio: "IUP - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNDEyZmI5YzQtYThjZS00ZWJlLWFmNjMtOWQ1OGE0MGRlYzJiIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZDg0MzRlNTUtNThkOS00OWJjLWExZjgtZjMwZmMzODA0OGE4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {id:801, tag: 7,tipo: 1, relatorio: "IUP - Campos Avaliados", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhkYTFmYTgtZWIxYS00OTAyLWFjZjMtYWRlMDViYzlkYjE2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZjdhNGIwN2EtMDIwMi00N2YwLWIyYWMtYjE1YWVmNzE3ODM4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-  
+    {id:802, tag: 7,tipo: 1, relatorio: "IUP - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhkYTFmYTgtZWIxYS00OTAyLWFjZjMtYWRlMDViYzlkYjE2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZjdhNGIwN2EtMDIwMi00N2YwLWIyYWMtYjE1YWVmNzE3ODM4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:801, tag: 7,tipo: 1, relatorio: "IUP - Relatório de Campo", ativo: true, url: "", url_full: ""},
+    //indicadores IUP
+    {id:1800, tag: 7,tipo: 2, relatorio: "Indicador Semanal - IUP", ativo: true, url: ""},
+
+
+
     //Broca
     {id:900, tag: 8,tipo: 1, relatorio: "Infestação Final Broca - Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhlYjhmNDgtODcyNy00Mzk3LTk4YzYtMDFkNTkwMjk1YjBkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:901, tag: 8,tipo: 1, relatorio: "Broca Mecanizada - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZGU3Mjg0YjktMzdlOC00MmIzLTk4M2QtNzZmY2U5YzA4ZGQ4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
