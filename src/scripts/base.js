@@ -94,6 +94,9 @@ const Grupo = [
 
 
 const Autorizado = [
+    {id: 0, liberado: [0,2,4,5,8]},
+    {id: 1, liberado: [0,2,4,5,8]},
+    {id: 2, liberado: [0,2,4,5,8]},
     {id: 3, liberado: [0,2,4,5,8]},
     {id: 4, liberado: [0,1,6,7]},
     {id: 5, liberado: [0,1,2,3,4,5]},
