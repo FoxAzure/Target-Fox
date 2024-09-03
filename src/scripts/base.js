@@ -93,25 +93,58 @@ const Grupo = [
 ]
 
 
+const Autorizado = [
+    {id: 3, liberado: [0,2,4,5,8]},
+    {id: 4, liberado: [0,1,6,7]},
+    {id: 5, liberado: [0,1,2,3,4,5]},
+    {id: 6, liberado: [0,1,2,8]},
+]
+
 function creatlistprincipal(){
     let Ativo;
     let list = document.querySelector("#listPrincipal")
     let level = localStorage.getItem("target_Level")
+    let nickID = localStorage.getItem("target_id")
     let listconstruct = "";
+    let idfind;
+
+    let listaLiberada = Autorizado.filter(item => item.id == nickID)
+    let tabela = listaLiberada[0].liberado
+
+
     switch(level){
         case "0":
             for(let i=0; i<Grupo.length; i++){
+                idfind = Grupo[i].id
                 Ativo = Grupo[i].ativo
                 if(Ativo==true){
-                    listconstruct = listconstruct + "<li><button class='bt_list' onclick='tagList("+Grupo[i].tag+","+Grupo[i].id+")'>" + Grupo[i].nome + "</button></li>"
+                    
+                    let verificarLiberaco = tabela.filter(item => item == idfind)
+            
+                    if(verificarLiberaco.length>0){
+                        listconstruct = listconstruct + "<li><button class='bt_list' onclick='tagList("+Grupo[i].tag+","+Grupo[i].id+")'>" + Grupo[i].nome + "</button></li>"
+                            
+                    }else{
+                        listconstruct = listconstruct + "<li><button class='bt_list_off'>" + Grupo[i].nome + "</button></li>"
+                    }
+                
                 }
             }
              break
         case "1":
             for(let i=0; i<Grupo.length; i++){
                 Ativo = Grupo[i].ativo
+                idfind = Grupo[i].id
                 if(Grupo[i].level == "1" && Ativo==true){
-                    listconstruct = listconstruct + "<li><button class='bt_list' onclick='tagList("+Grupo[i].tag+","+Grupo[i].id+")'>" + Grupo[i].nome + "</button></li>"
+                    
+                    let verificarLiberaco = tabela.filter(item => item == idfind)
+            
+                    if(verificarLiberaco.length>0){
+                        listconstruct = listconstruct + "<li><button class='bt_list' onclick='tagList("+Grupo[i].tag+","+Grupo[i].id+")'>" + Grupo[i].nome + "</button></li>"
+                            
+                    }else{
+                        listconstruct = listconstruct + "<li><button class='bt_list_off'>" + Grupo[i].nome + "</button></li>"
+                    }
                 }
             }
             break
