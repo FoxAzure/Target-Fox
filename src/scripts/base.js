@@ -56,23 +56,24 @@ const Relatorios = [
 
 
     //Tratos Culturais
-    {id:700, tag: 6,tipo: 1, relatorio: "Avaliação Drone", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTllNmI0NTktNDIyOS00ZTJkLTk3OWItMDZlZWIxY2E5MjNjIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {id:701, tag: 6,tipo: 1, relatorio: "Adubação de Cobertura", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNjI0OTQyNWItMmViYS00YjU2LTllZWMtZjkzMjU3MGVmMDMyIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:700, tag: 6,tipo: 1, relatorio: "Avaliação Drone", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTllNmI0NTktNDIyOS00ZTJkLTk3OWItMDZlZWIxY2E5MjNjIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiYWY5ZDI1MTYtOTcwZi00MTI0LThhMTYtNWMwZjZjOTQzZDE0IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:701, tag: 6,tipo: 1, relatorio: "Adubação de Cobertura", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNjI0OTQyNWItMmViYS00YjU2LTllZWMtZjkzMjU3MGVmMDMyIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiNzc1NjNlZDMtZmU4MS00MGU1LTljN2UtMjg5MTIwOTA0NzgxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:702, tag: 6,tipo: 1, relatorio: "Vinhaça Localizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNGIwOGJlOTMtYWY5Yy00ZGVlLWJjOGItMzU5YzdhNmIzMmQxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZjNmNWYwZTMtYzFhNC00N2U5LWJmNTAtMjZjYmNlNGI5MTQzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
 
 
     //IUP
     {id:800, tag: 7,tipo: 1, relatorio: "Avaliação IUP", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNDEyZmI5YzQtYThjZS00ZWJlLWFmNjMtOWQ1OGE0MGRlYzJiIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZDg0MzRlNTUtNThkOS00OWJjLWExZjgtZjMwZmMzODA0OGE4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {id:801, tag: 7,tipo: 1, relatorio: "IUP - Relatório de Campo", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMWQxZGQ0MDQtNTgxMi00MDQxLWFhMjYtNGNjYzMyNTE0MGRlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
+    {id:801, tag: 7,tipo: 1, relatorio: "IUP - Relatório de Campo", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMWQxZGQ0MDQtNTgxMi00MDQxLWFhMjYtNGNjYzMyNTE0MGRlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiODJkN2U1MWEtMzUxMC00MTljLWJhNjQtZDRjNWQyNTFiYzQ3IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     //indicadores IUP
     {id:1800, tag: 7,tipo: 2, relatorio: "Indicador Semanal - IUP", ativo: true, url: ""},
 
 
 
     //Broca
-    {id:900, tag: 8,tipo: 1, relatorio: "Infestação Final Broca - Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhlYjhmNDgtODcyNy00Mzk3LTk4YzYtMDFkNTkwMjk1YjBkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {id:901, tag: 8,tipo: 1, relatorio: "Broca Mecanizada - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZGU3Mjg0YjktMzdlOC00MmIzLTk4M2QtNzZmY2U5YzA4ZGQ4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {id:900, tag: 8,tipo: 1, relatorio: "Infestação Final Broca - Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhlYjhmNDgtODcyNy00Mzk3LTk4YzYtMDFkNTkwMjk1YjBkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiNzg3MGEzMmYtNmZhNy00YTk4LWE4YzQtMjJhYWVjNzc5NGZkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    
+
 ]
 
 
