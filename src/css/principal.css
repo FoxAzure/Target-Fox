@@ -75,20 +75,20 @@ body{
 }
 
 .header_principal{
-    background-image: url("../../galery/bannerPrincipal.png");
+    background-image: url("../../galery/bannerPrincipal.jpg");
     background-position: top;
     background-size: cover;
     height: 100px;
-    opacity: 20%;
+    opacity: 40%;
 }
 
 @media only screen and (min-width: 400px) {
     .header_principal{
-        background-image: url("../../galery/bannerFull.png");
-        background-position: top;
+        background-image: url("../../galery/bannerFull.jpg");
+        background-position: center;
         background-size: cover;
         height: 100px;
-        opacity: 35%;
+        opacity: 30%;
     }
   }
 
@@ -157,6 +157,24 @@ body{
     justify-content: center;
     position: relative;
     bottom: 0;
+}
+.rodape p{
+    margin: 7px;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.pr{
+    font-size: 12pt;
+}
+.sessao_rodape a{
+    color: rgb(0, 37, 0);
+}
+.sessao_rodape a:hover{
+    text-decoration: underline;
 }
 
 .sessao_rodape{

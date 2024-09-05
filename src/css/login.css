@@ -1,11 +1,11 @@
 .backgroun_login{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../galery/login.JPG);
+    background-image: url(../../galery/BannerOriginal.jpg);
     background-size: cover;
     background-position: center;
 }
