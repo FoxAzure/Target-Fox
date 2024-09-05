@@ -88,17 +88,18 @@ const Grupo = [
     {id: 6, tag: 6, nome: "Tratos Culturais", level: "1", ativo: true},
     {id: 7, tag: 7, nome: "IUP - Índice de Uniformidade do Plantio", level: "1", ativo: true},
     {id: 8, tag: 8, nome: "Infestação Final - Broca", level: "1", ativo: true},
+    {id: 9, tag: 9, nome: "Irrigação", level: "1", ativo: true},
 ]
 
 
 const Autorizado = [
-    {id: 0, liberado: [0,1,2,3,4,5,6,7,8]},
-    {id: 1, liberado: [0,1,2,3,4,5,6,7,8]},
-    {id: 2, liberado: [0,1,2,3,4,5,6,7,8]},
-    {id: 3, liberado: [0,1,2,3,4,5,6,7,8]},
-    {id: 4, liberado: [0,1,6,7]},
-    {id: 5, liberado: [0,1,2,3,4,5]},
-    {id: 6, liberado: [0,1,2,8]},
+    {id: 0, liberado: [0,1,2,3,4,5,6,7,8,9]},//Adm
+    {id: 1, liberado: [0,1,2,3,4,5,6,7,8,9]},//Paulo
+    {id: 2, liberado: [0,1,2,3,4,5,6,7,8,9]},//Romário
+    {id: 3, liberado: [0,1,2,3,4,5,6,7,8,9]},//Felipe
+    {id: 4, liberado: [1,2,3,4,5,6,7,8,9]},//Agrovale
+    {id: 5, liberado: [1,2,3,4,5,6,7,8,9]},//Ednei
+    {id: 6, liberado: [0,1,2,3,4,5,6,7,8,9]},//Jackson
 ]
 
 
