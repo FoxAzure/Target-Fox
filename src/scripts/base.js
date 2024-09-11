@@ -41,7 +41,8 @@ const Relatorios = [
     
     //Semente Mecanizada
     {id:500, tag: 4,tipo: 1, relatorio: "Semente Mec - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYTEzODM2NDktZjg3MC00MDVjLWE5ZWEtZDRjZTM5OTNiNjQxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiYTU0ZTU3ZjAtZjFiZC00NTk1LWFjZWYtOGQwZDgxMTkxNzNmIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    //indicadores Plantio
+    {id:501, tag: 4,tipo: 1, relatorio: "Semente Mec - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZTNkMzJiZWItYWNlZS00NWQ5LWIzMDQtMWY1MTZkNjg3OWI1IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},   
+    //indicadores Semente
     {id:1500, tag: 4,tipo: 2, relatorio: "Indicador Semanal - Semente Mecanizada", ativo: true, url: ""},
 
 
@@ -72,6 +73,12 @@ const Relatorios = [
 
     //Broca
     {id:900, tag: 8,tipo: 1, relatorio: "Infestação Final Broca - Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhlYjhmNDgtODcyNy00Mzk3LTk4YzYtMDFkNTkwMjk1YjBkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiNzg3MGEzMmYtNmZhNy00YTk4LWE4YzQtMjJhYWVjNzc5NGZkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    
+
+
+    //Irrigação
+    {id:1000, tag: 9,tipo: 1, relatorio: "Avaliação da Casa de Bomba", ativo: true, url: "", url_full: ""},
+    {id:1001, tag: 9,tipo: 1, relatorio: "Avaliação de Gotejamento", ativo: true, url: "", url_full: ""},
     
 
 ]
