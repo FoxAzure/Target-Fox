@@ -28,7 +28,7 @@ const Relatorios = [
 
 
     //Perparo de Solo
-    {id:404, tag: 3,tipo: 1, relatorio: "Preparo de Solo - Geral", ativo: true, url: "", url_full: ""},
+    {id:404, tag: 3,tipo: 1, relatorio: "Preparo de Solo - Geral", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNGI2Mzg0ZDEtM2E0NC00M2M3LWJhYzMtZGRiZDEzODJlMTUwIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiYmUyMmM2YjQtNzdjYi00ZGNjLTg3YmYtYTA4OGNhOTEwOTI1IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:400, tag: 3,tipo: 1, relatorio: "Profundidade do Preparo", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZDBlYzMzYjMtOWJkZi00NDc3LTk5OTMtOWU0ZTcxZjBiM2I4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
     {id:401, tag: 3,tipo: 1, relatorio: "Paralelismo Entre Sulcos", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNWE5YTNlMzgtNWVmNy00Y2MxLTg0YTYtMjhmOTcxNTJmMGNiIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
     {id:402, tag: 3,tipo: 1, relatorio: "Paralelismo Entre Fitas", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiN2VmZTlhZmItNzU5MS00NDZmLWI2ZjktZGRmN2IyZTJmNmMzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
@@ -115,6 +115,7 @@ const Autorizado = [
     {id: 4, liberado: [1,2,3,4,5,6,7,8,9]},//Agrovale
     {id: 5, liberado: [1,2,3,4,5,6,7,8,9]},//Ednei
     {id: 6, liberado: [0,1,2,3,4,5,6,7,8,9]},//Jackson
+    {id: 7, liberado: [1,2,3,4,5,6,7,8,9]},//Paulo Ricardo - Superintendente
 ]
 
 

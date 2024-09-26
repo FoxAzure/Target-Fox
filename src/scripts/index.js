@@ -6,6 +6,7 @@ const User = [
     {id: 4, user: "AGROVALE", senha: "agrovale2024", name: "Agrovale", subnick:"", level: 1},
     {id: 5, user: "EDNEI", senha: "santosfc", name: "Ednei Robiatti", subnick:"Gerente SGI", level: 1},
     {id: 6, user: "JACKSON", senha: "bahia", name: "Jackson Daniel", subnick:"Tec. Qualidade Agrícola", level: 0},
+    {id: 7, user: "PAULO RICARDO", senha: "94244", name: "Paulo Ricardo", subnick:"Superintendente Geral", level: 1},
 ]
 
 
