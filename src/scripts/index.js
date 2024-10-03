@@ -7,6 +7,15 @@ const User = [
     {id: 5, user: "EDNEI", senha: "santosfc", name: "Ednei Robiatti", subnick:"Gerente SGI", level: 1},
     {id: 6, user: "JACKSON", senha: "bahia", name: "Jackson Daniel", subnick:"Tec. Qualidade Agrícola", level: 0},
     {id: 7, user: "PAULO RICARDO", senha: "94244", name: "Paulo Ricardo", subnick:"Superintendente Geral", level: 1},
+    {id: 8, user: "QUALIDADE", senha: "qualidade2024", name: "Equipe Qualidade", subnick:"Equipe Qualidade Agrícola - Agrovale", level: 1},
+    {id: 9, user: "LEANDRO", senha: "91702", name: "Leandro Rodrigues", subnick:"Aux. Tec. Qualidade", level: 0},
+    {id: 10, user: "DIEGUINHO", senha: "90405", name: "Dieguinho", subnick:"Aux. Tec. Qualidade", level: 0},
+
+
+
+
+
+
 ]
 
 

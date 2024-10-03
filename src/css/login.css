@@ -12,14 +12,30 @@
 
 .login_box{
     width: 300px;
-    height: 180px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
     border-radius: 15px;
-    background-color: rgba(255, 166, 0);
+    background-color: rgb(255, 200, 91);
+}
+
+.opcoes_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.opcoes_box a{
+    margin: 5px;
+    color: rgb(4, 53, 4);
+}
+.opcoes_box a:hover{
+    color: orangered;
+    text-decoration: underline;
 }
 
 .input_login{
@@ -41,4 +57,13 @@
 .submit:hover{
     background-color: green;
     color: white;
+    cursor: pointer;
+}
+
+.logo_tela_login{
+    width: 130px;
+}
+
+.cadastro{
+    width: 100vw;
 }
