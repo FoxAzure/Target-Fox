@@ -28,6 +28,7 @@ function validarlogin(){
     txt_senha = document.querySelector("#senha").value
     
     txt_userUP = txt_user.toUpperCase()
+    txt_userUP = txt_userUP.trim()
 
     let resultado = User.filter( item =>
         item.user == txt_userUP && item.senha == txt_senha
