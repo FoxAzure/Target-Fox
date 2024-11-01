@@ -1,4 +1,4 @@
-const Relatorios = [
+const RelatoriosOLD = [
     //Equipe da Qualidade
     {id:100, tag: 0,tipo: 1, relatorio: "Acompanhamento da Equipe", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNjM1YzVlMzYtMWM0YS00Yjg4LTg0MjItZTg3MTIwNDIyN2ViIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiOTFkM2I2NjgtODQxMi00NDJiLWE3YTUtNDQzZTg4MTliYjYzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:101, tag: 0,tipo: 1, relatorio: "Acompanhamento Colhedoras", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzllZWFmYzctMzE1YS00NzFmLTg2OTItOTVhMTJiNzYwNDE3IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
@@ -81,6 +81,102 @@ const Relatorios = [
 
     //Broca
     {id:900, tag: 8,tipo: 1, relatorio: "Infestação Final Broca - Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzhlYjhmNDgtODcyNy00Mzk3LTk4YzYtMDFkNTkwMjk1YjBkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiNzg3MGEzMmYtNmZhNy00YTk4LWE4YzQtMjJhYWVjNzc5NGZkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    
+
+
+    //Irrigação
+    {id:1000, tag: 9,tipo: 1, relatorio: "Avaliação da Casa de Bomba", ativo: true, url: "", url_full: ""},
+    {id:1001, tag: 9,tipo: 1, relatorio: "Avaliação de Gotejamento", ativo: true, url: "", url_full: ""},
+    
+
+]
+
+
+
+
+const Relatorios = [
+    //Equipe da Qualidade
+    {id:100, tag: 0,tipo: 1, relatorio: "Acompanhamento da Equipe", ativo: true, url: "", url_full: ""},
+    {id:101, tag: 0,tipo: 1, relatorio: "Acompanhamento Colhedoras", ativo: true, url: ""},
+    {id:103, tag: 0,tipo: 1, relatorio: "Acompanhamento Datas de Plantio", ativo: true, url: "", url_full: ""},
+    {id:104, tag: 0,tipo: 1, relatorio: "Perdas Mecanizada - Ponto a Ponto", ativo: true, url: "", url_full: ""},
+    {id:105, tag: 0,tipo: 1, relatorio: "Perdas Manual - Ponto a Ponto", ativo: true, url: "", url_full: ""},
+    {id:106, tag: 0,tipo: 1, relatorio: "Resumo IUP", ativo: true, url: "", url_full: ""},
+
+
+    //Boletim Diário
+    {id:200, tag: 1,tipo: 1, relatorio: "Boletim Diário da Qualidade", ativo: true, url: ""},
+   
+
+
+    //Perdas na Colheita
+    {id:300, tag: 2,tipo: 1, relatorio: "Perdas na Colheita Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZDhkM2E1MGQtNmQxNC00NmY2LWFkMjYtOGZhN2VkNzQzNThkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
+    {id:301, tag: 2,tipo: 1, relatorio: "Perdas na Colheita Manual", ativo: true, url: "", url_full: ""},
+    {id:302, tag: 2,tipo: 1, relatorio: "Relatório por Campo", ativo: true, url: "", url_full: ""},
+    {id:303, tag: 2,tipo: 1, relatorio: "Relatório Estimado x Real", ativo: false, url: ""},
+    {id:304, tag: 2,tipo: 1, relatorio: "Relatório das Colhedoras", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZDdhYTkyZjEtYTMwNy00YjhiLTkzZmUtM2JjYmZjNmExZTEwIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
+    {id:305, tag: 2,tipo: 1, relatorio: "Relatório por Frente", ativo: true, url: ""},
+    {id:306, tag: 2,tipo: 1, relatorio: "Relatório por Variedade", ativo: true, url: ""},
+    //indicadores Colheta
+    {id:1300, tag: 2,tipo: 2, relatorio: "Indicador Semanal - Mecanizada", ativo: true, url: ""},
+    {id:1301, tag: 2,tipo: 2, relatorio: "Indicador Semanal - Manual", ativo: true, url: ""},
+
+
+
+    //Perparo de Solo
+    {id:400, tag: 3,tipo: 1, relatorio: "Preparo de Solo - Geral", ativo: true, url: "", url_full: ""},
+    {id:401, tag: 3,tipo: 1, relatorio: "Profundidade do Preparo", ativo: true, url: "", url_full: ""},
+    {id:402, tag: 3,tipo: 1, relatorio: "Paralelismo Entre Sulcos", ativo: true, url: "", url_full: ""},
+    {id:403, tag: 3,tipo: 1, relatorio: "Paralelismo Entre Fitas", ativo: true, url: "", url_full: ""},
+    {id:404, tag: 3,tipo: 1, relatorio: "Profund. Sulco x Fita Gotejadora", ativo: true, url: "", url_full: ""},
+    {id:405, tag: 3,tipo: 1, relatorio: "Aplicação de Composto", ativo: true, url: "", url_full: ""},
+    {id:406, tag: 3,tipo: 1, relatorio: "Adubação do Sulcamento", ativo: true, url: "", url_full: ""},
+       
+    
+    
+    //{id:402, tag: 3,tipo: 1, relatorio: "Profundidade do Preparo - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZTY1MTVkYjktMjUwNS00ZTk5LWJiZDMtY2FlOGYyOTRkMTY2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    //{id:403, tag: 3,tipo: 1, relatorio: "Paralelismo - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYWU2MzY1OTMtMWMxNy00N2YwLWEwZmYtYjQ4YWQwNWQ5MmJlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    //{id:410, tag: 3,tipo: 1, relatorio: "Composto - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZmVjNTFmN2QtY2U3Yi00ZTVjLWJmNDItNjNiZjMyOTRlMDkzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZTQ4Yzc4OGItZDFlMi00YzFlLWIxZjEtOTc2YjNmOWU5MTcxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    //{id:411, tag: 3,tipo: 1, relatorio: "Composto - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNmU5ZGY2ZTEtM2MyMi00ZTY2LWI0YzktNjE4NDNkZDBmNWYwIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiY2QxNDQ2MjctNDhkNy00N2I3LThlYzItYzIyYjlhMjU2YTMyIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    //{id:412, tag: 3,tipo: 1, relatorio: "Adubação Sulcamento - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiM2Q1OTZmN2YtN2E5Ny00OGRmLWI2YWItNDcyMzZhOGJmZjA2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    //{id:413, tag: 3,tipo: 1, relatorio: "Adubação Sulcamento - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYTlmYmI3ZjUtODQ3ZC00YzNmLWFhZGItZmJhYzY3ZjU2OGZkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    
+    
+    
+    //Semente Mecanizada
+    {id:500, tag: 4,tipo: 1, relatorio: "Semente Mec - Última Avaliação", ativo: true, url: "", url_full: ""},
+    {id:501, tag: 4,tipo: 1, relatorio: "Semente Mec - Histórico", ativo: true, url: "", url_full: ""},   
+    //indicadores Semente
+    {id:1500, tag: 4,tipo: 2, relatorio: "Indicador Semanal - Semente Mecanizada", ativo: true, url: ""},
+
+
+    //Plantio Mecanizado
+    {id:600, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "", url_full: ""},
+    {id:601, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Histórico", ativo: true, url: ""},
+    {id:602, tag: 5,tipo: 1, relatorio: "Plantio Manual - Última Avaliação", ativo: true, url: ""},
+    //indicadores Plantio
+    {id:1600, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Mecanizado", ativo: true, url: ""},
+    {id:1601, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Manual", ativo: true, url: ""},
+
+
+
+    //Tratos Culturais
+    {id:700, tag: 6,tipo: 1, relatorio: "Avaliação Drone", ativo: true, url: "", url_full: ""},
+    {id:701, tag: 6,tipo: 1, relatorio: "Adubação de Cobertura", ativo: true, url: "", url_full: ""},
+    {id:702, tag: 6,tipo: 1, relatorio: "Vinhaça Localizada", ativo: true, url: "", url_full: ""},
+
+
+
+    //IUP
+    {id:800, tag: 7,tipo: 1, relatorio: "Avaliação IUP", ativo: true, url: "", url_full: ""},
+    {id:801, tag: 7,tipo: 1, relatorio: "IUP - Relatório de Campo", ativo: true, url: "", url_full: ""},
+    //indicadores IUP
+    {id:1800, tag: 7,tipo: 2, relatorio: "Indicador Semanal - IUP", ativo: true, url: ""},
+
+
+
+    //Broca
+    {id:900, tag: 8,tipo: 1, relatorio: "Infestação Final Broca - Mecanizada", ativo: true, url: "", url_full: ""},
     
 
 
