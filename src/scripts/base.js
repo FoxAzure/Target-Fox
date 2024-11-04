@@ -162,7 +162,7 @@ const Relatorios = [
 
 
     //Tratos Culturais
-    {id:700, tag: 6,tipo: 1, relatorio: "Avaliação Drone", ativo: true, url: "", url_full: ""},
+    {id:700, tag: 6,tipo: 1, relatorio: "Avaliação Drone", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMThhMDJiODktMzUwYi00ZDc3LTg3MjItZGIzZjVlY2Q4NDQ5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
     {id:701, tag: 6,tipo: 1, relatorio: "Adubação de Cobertura", ativo: true, url: "", url_full: ""},
     {id:702, tag: 6,tipo: 1, relatorio: "Vinhaça Localizada", ativo: true, url: "", url_full: ""},
 
@@ -177,7 +177,7 @@ const Relatorios = [
 
 
     //Broca
-    {id:900, tag: 8,tipo: 1, relatorio: "Infestação Final Broca - Mecanizada", ativo: true, url: "", url_full: ""},
+    {id:900, tag: 8,tipo: 1, relatorio: "Infestação Final Broca - Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiOTkzYzI0NTEtOGMwZS00YmJlLTk1NWUtYjBhMjE1NDkyYWEzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
     
 
 
