@@ -113,7 +113,7 @@ const Relatorios = [
     {id:300, tag: 2,tipo: 1, relatorio: "Perdas na Colheita Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZDhkM2E1MGQtNmQxNC00NmY2LWFkMjYtOGZhN2VkNzQzNThkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
     {id:301, tag: 2,tipo: 1, relatorio: "Histórico Colheita Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMjJiY2NjMWUtNDBhNy00NWY4LTg0OWQtMzg3YjMyMTI4M2I4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
     {id:302, tag: 2,tipo: 1, relatorio: "Perdas na Colheita Manual", ativo: true, url: "", url_full: "https://app.powerbi.com/view?r=eyJrIjoiNTAzYzZhNzQtZWVmZC00ZWE4LTgzMTctZjU4OTAxMTAyZmM5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {id:303, tag: 2,tipo: 1, relatorio: "Histórico Colheita Manual", ativo: true, url: "", url_full: ""},
+    {id:303, tag: 2,tipo: 1, relatorio: "Histórico Colheita Manual", ativo: true, url: "", url_full: "https://app.powerbi.com/view?r=eyJrIjoiYjc2ZmFiZWMtYjQ5YS00ZTZlLTg0NWUtYTBkY2MxYjY2MThlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {id:304, tag: 2,tipo: 1, relatorio: "Relatório Estimado x Real", ativo: false, url: ""},
     {id:305, tag: 2,tipo: 1, relatorio: "Relatório das Colhedoras", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZDdhYTkyZjEtYTMwNy00YjhiLTkzZmUtM2JjYmZjNmExZTEwIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
     {id:306, tag: 2,tipo: 1, relatorio: "Relatório por Frente", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMGI1MmFiMjItMjgxMC00YzBhLTllOWMtMTU3ZmM4MjJhMTkxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
