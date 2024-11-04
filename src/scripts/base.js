@@ -152,7 +152,7 @@ const Relatorios = [
 
 
     //Plantio Mecanizado
-    {id:600, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "", url_full: ""},
+    {id:600, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzAzODFiZTgtM2ZjMC00MTJiLWI1YTEtNjU5ODEzZDJmNjlkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
     {id:601, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Histórico", ativo: true, url: ""},
     {id:602, tag: 5,tipo: 1, relatorio: "Plantio Manual - Última Avaliação", ativo: true, url: ""},
     //indicadores Plantio
