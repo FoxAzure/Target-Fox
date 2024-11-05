@@ -126,12 +126,12 @@ const Relatorios = [
 
     //Perparo de Solo
     {id:400, tag: 3,tipo: 1, relatorio: "Preparo de Solo - Geral", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNmZkNGUyZWYtZGM5Zi00MGZhLWJiODMtM2E5ZTY3MmUyOTdlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
-    {id:401, tag: 3,tipo: 1, relatorio: "Profundidade do Preparo", ativo: true, url: "", url_full: ""},
-    {id:402, tag: 3,tipo: 1, relatorio: "Paralelismo Entre Sulcos", ativo: true, url: "", url_full: ""},
-    {id:403, tag: 3,tipo: 1, relatorio: "Paralelismo Entre Fitas", ativo: true, url: "", url_full: ""},
-    {id:404, tag: 3,tipo: 1, relatorio: "Profund. Sulco x Fita Gotejadora", ativo: true, url: "", url_full: ""},
-    {id:405, tag: 3,tipo: 1, relatorio: "Aplicação de Composto", ativo: true, url: "", url_full: ""},
-    {id:406, tag: 3,tipo: 1, relatorio: "Adubação do Sulcamento", ativo: true, url: "", url_full: ""},
+    {id:401, tag: 3,tipo: 1, relatorio: "Profundidade do Preparo", ativo: false, url: "", url_full: ""},
+    {id:402, tag: 3,tipo: 1, relatorio: "Paralelismo Entre Sulcos", ativo: false, url: "", url_full: ""},
+    {id:403, tag: 3,tipo: 1, relatorio: "Paralelismo Entre Fitas", ativo: false, url: "", url_full: ""},
+    {id:404, tag: 3,tipo: 1, relatorio: "Profund. Sulco x Fita Gotejadora", ativo: false, url: "", url_full: ""},
+    {id:405, tag: 3,tipo: 1, relatorio: "Aplicação de Composto", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYjEyOTNiOWItNTA1Yy00NGRlLTg4MjQtYTcyMTIyYTlmOTQ5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
+    {id:406, tag: 3,tipo: 1, relatorio: "Adubação do Sulcamento", ativo: false, url: "", url_full: ""},
        
     
     
@@ -146,15 +146,15 @@ const Relatorios = [
     
     //Semente Mecanizada
     {id:500, tag: 4,tipo: 1, relatorio: "Semente Mec - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODQzN2I0MDMtOTMxYy00NzBjLTg3MDYtNjQ3Y2IwNjA0NGMxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
-    {id:501, tag: 4,tipo: 1, relatorio: "Semente Mec - Histórico", ativo: true, url: "", url_full: ""},   
+    {id:501, tag: 4,tipo: 1, relatorio: "Semente Mec - Histórico", ativo: false, url: "", url_full: ""},   
     //indicadores Semente
     {id:1500, tag: 4,tipo: 2, relatorio: "Indicador Semanal - Semente Mecanizada", ativo: true, url: ""},
 
 
     //Plantio Mecanizado
     {id:600, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzAzODFiZTgtM2ZjMC00MTJiLWI1YTEtNjU5ODEzZDJmNjlkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
-    {id:601, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Histórico", ativo: true, url: ""},
-    {id:602, tag: 5,tipo: 1, relatorio: "Plantio Manual - Última Avaliação", ativo: true, url: ""},
+    {id:601, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Histórico", ativo: false, url: ""},
+    {id:602, tag: 5,tipo: 1, relatorio: "Plantio Manual - Última Avaliação", ativo: false, url: ""},
     //indicadores Plantio
     {id:1600, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Mecanizado", ativo: true, url: ""},
     {id:1601, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Manual", ativo: true, url: ""},
@@ -163,8 +163,8 @@ const Relatorios = [
 
     //Tratos Culturais
     {id:700, tag: 6,tipo: 1, relatorio: "Avaliação Drone", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMThhMDJiODktMzUwYi00ZDc3LTg3MjItZGIzZjVlY2Q4NDQ5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
-    {id:701, tag: 6,tipo: 1, relatorio: "Adubação de Cobertura", ativo: true, url: "", url_full: ""},
-    {id:702, tag: 6,tipo: 1, relatorio: "Vinhaça Localizada", ativo: true, url: "", url_full: ""},
+    {id:701, tag: 6,tipo: 1, relatorio: "Adubação de Cobertura", ativo: false, url: "", url_full: ""},
+    {id:702, tag: 6,tipo: 1, relatorio: "Vinhaça Localizada", ativo: false, url: "", url_full: ""},
 
 
 
@@ -192,7 +192,7 @@ const Relatorios = [
 
 const Grupo = [
     {id: 0, tag: 0, nome: "Equipe Qualidade", level:"0", ativo: true},
-    {id: 1, tag: 1, nome: "Boletim da Qualidade Agrícola", level:"1", ativo: true},
+    {id: 1, tag: 1, nome: "Boletim da Qualidade Agrícola", level:"1", ativo: false},
     {id: 2, tag: 2, nome: "Perdas na Colheita", level: "1", ativo: true},
     {id: 3, tag: 3, nome: "Preparo de Solo", level: "1", ativo: true},
     {id: 4, tag: 4, nome: "Semente Mecanizada", level: "1", ativo: true},
