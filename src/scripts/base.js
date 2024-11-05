@@ -169,8 +169,8 @@ const Relatorios = [
 
 
     //IUP
-    {id:800, tag: 7,tipo: 1, relatorio: "Avaliação IUP", ativo: true, url: "", url_full: ""},
-    {id:801, tag: 7,tipo: 1, relatorio: "IUP - Relatório de Campo", ativo: true, url: "", url_full: ""},
+    {id:800, tag: 7,tipo: 1, relatorio: "Avaliação IUP", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYTdhYjU4ODctZGY5MC00ZWVlLTk5YTYtNWUyN2E3ZDcwODQ3IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
+    {id:801, tag: 7,tipo: 1, relatorio: "IUP - Relatório de Campo", ativo: false, url: "", url_full: ""},
     //indicadores IUP
     {id:1800, tag: 7,tipo: 2, relatorio: "Indicador Semanal - IUP", ativo: true, url: ""},
 
