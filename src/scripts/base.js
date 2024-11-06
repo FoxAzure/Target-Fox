@@ -226,7 +226,7 @@ const Autorizado = [
     {id: 16, liberado: [1,2,3,4,5,6,7,8,9]},//Nayara
     {id: 17, liberado: [1,3]},//Josenilton
     {id: 18, liberado: [1,2,8]},//Williams
-
+    {id: 19, liberado: [1,2,3,4,5,6,7,8,9]},//Ademar
 
 ]
 
