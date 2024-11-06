@@ -216,7 +216,7 @@ const Autorizado = [
     {id: 8, liberado: [1,2,3,4,5,6,7,8,9]},//Qualidade Agrícola
     {id: 9, liberado: [0,1,2,3,4,5,6,7,8,9]},//Leandro
     {id: 10, liberado: [0,1,2,3,4,5,6,7,8,9]},//Dieguinho
-
+    {id: 11, liberado: [1,2,3,4,5,6,7,8,9]},//Ednei
 
 
 
