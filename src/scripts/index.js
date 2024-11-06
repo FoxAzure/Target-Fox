@@ -10,7 +10,7 @@ const User = [
     {id: 8, user: "QUALIDADE", senha: "qualidade2024", name: "Equipe Qualidade", subnick:"Equipe Qualidade Agrícola - Agrovale", level: 1},
     {id: 9, user: "LEANDRO", senha: "91702", name: "Leandro Rodrigues", subnick:"Aux. Tec. Qualidade", level: 0},
     {id: 10, user: "DIEGUINHO", senha: "90405", name: "Dieguinho", subnick:"Aux. Tec. Qualidade", level: 0},
-
+    {id: 11, user: "CESAR", senha: "1234", name: "Cesar", subnick:"Superintedente AgroIndustrial", level: 1},
 
 
 
