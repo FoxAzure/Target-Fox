@@ -12,7 +12,18 @@ const User = [
     {id: 10, user: "DIEGUINHO", senha: "90405", name: "Dieguinho", subnick:"Aux. Tec. Qualidade", level: 0},
     {id: 11, user: "CESAR", senha: "1234", name: "Cesar", subnick:"Superintedente AgroIndustrial", level: 1},
 
+    //solicitado
+    {id: 12, user: "MARCIO", senha: "18299", name: "Marcio", subnick:"Coordenador Agrícola", level: 1},
+    {id: 13, user: "JOSUE BEZERRA", senha: "75664", name: "Josué Bezerra", subnick:" ", level: 1},
+    {id: 14, user: "ARGEMIRO", senha: "50349", name: "Argemiro Chaves", subnick:"Gerente de Agronomia", level: 1},
+    {id: 15, user: "ARTUR", senha: "80472", name: "Artur Pereira", subnick:"Gestor de Irrigação", level: 1},
+    {id: 16, user: "NAYARA", senha: "74644", name: "Nayara Aline", subnick:"Controladoria", level: 1},
+    {id: 17, user: "JOSENILDO", senha: "86270", name: "Josenildo Kelder", subnick:" ", level: 1},
+    {id: 18, user: "WILLIAMS", senha: "85856", name: "Williams", subnick:"Líder Colheita MEC", level: 1},
 
+    //{id: 19, user: "nome", senha: "senha", name: "Nick", subnick:"Cargo", level: 1},
+    //{id: 20, user: "nome", senha: "senha", name: "Nick", subnick:"Cargo", level: 1},
+    //{id: 21, user: "nome", senha: "senha", name: "Nick", subnick:"Cargo", level: 1},
 
 
 
