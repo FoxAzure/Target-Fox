@@ -231,6 +231,7 @@ const Autorizado = [
     {id: 21, liberado: [1,3]},//Preparo
     {id: 22, liberado: [1,2,3,4,5,6,7,8,9]},//CID
     {id: 23, liberado: [1,2,3,4,5,6,7,8,9]},//Ismael
+    {id: 24, liberado: [1,2,8,9]},//Icaro
     {id: 25, liberado: [1,2,3,4,5,6,7,8,9]},//Guilherme
     {id: 26, liberado: [1,2,3,4,5,6,7,8,9]},//Joaquim
 ]
