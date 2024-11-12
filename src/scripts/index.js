@@ -27,7 +27,7 @@ const User = [
     {id: 22, user: "CID", senha: "cid123", name: "CID", subnick:"Diretor", level: 1},
 
     {id: 23, user: "ISMAEL", senha: "93945", name: "Ismael", subnick:" ", level: 1},
-    {id: 25, user: "GUILHERME", senha: "9", name: "Guilherme Bastos C. Dias Filho", subnick:"Diretor", level: 1},
+    {id: 25, user: "GUILHERME", senha: "9", name: "Guilherme Bastos", subnick:"Diretor", level: 1},
 
 ]
 
