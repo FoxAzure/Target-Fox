@@ -321,8 +321,7 @@ function creatlistrel2(){
     let listconstruct = "";
     let Indicconstuct = "";
 
-    let tagManutencao = "<div><img src='galery/manutencao.png' class='icon_manutencao'></div>"
-    let tagManutencao2 = "<div><img src='galery/manutencao.png' class='icon_manutencao_off'></div>"
+    
 
     document.title = "AgroTarget - " + Grupo[tag_seletion].nome
 
@@ -330,7 +329,21 @@ function creatlistrel2(){
     //console.log(ListaRelatorios)
     for(let i=0; i<ListaRelatorios.length; i++){
         //Ativo = Relatorios[i].ativo
-            icon_relatorio = ListaIndicadores[i].icon == "m" ? tagManutencao : tagManutencao2;
+            //icon_relatorio = ListaIndicadores[i].icon == "m" ? tagManutencao : tagOFF;
+            console.log(ListaIndicadores[i].icon)
+            switch (ListaIndicadores[i].icon){
+                case "m":
+                    icon_relatorio = tagManutencao;
+                    break
+
+                case "a":
+                    icon_relatorio = tagAtualizado;
+                    break
+
+                default:
+                    icon_relatorio = tagOFF;
+
+            }
 
             listconstruct = listconstruct + "<button class='bt_relatorios' onclick='loadDash("+ListaRelatorios[i].id+")'>" + icon_relatorio + ListaRelatorios[i].relatorio + "</button>"
         //}
@@ -341,7 +354,20 @@ function creatlistrel2(){
         //Ativo = Relatorios[i].ativo
         //if(Ativo==true){
             
-        icon_relatorio = ListaIndicadores[i].icon == "m" ? tagManutencao : tagManutencao2;
+        //icon_relatorio = ListaIndicadores[i].icon == "m" ? tagManutencao : tagOFF;
+        switch (ListaIndicadores[i].icon){
+            case "m":
+                icon_relatorio = tagManutencao;
+                break
+
+            case "a":
+                icon_relatorio = tagAtualizado;
+                break
+
+            default:
+                icon_relatorio = tagOFF;
+
+        }
 
             Indicconstuct = Indicconstuct + "<button class='bt_relatorios bt_indic' onclick='loadDash("+ListaIndicadores[i].id+")'>"  + icon_relatorio + ListaIndicadores[i].relatorio + "</button>"
         //}
@@ -358,6 +384,37 @@ function creatlistrel2(){
 
 
 
+function iconeLista(TagIcon){
+    
+    //Icones
+    let tagOFF = "manutencao"
+    let tagManutencao = "manutencao"
+    let tagAtualizado = "atualizado2"
+    let tagIncluido = "adicionar"
+
+    switch (TagIcon){
+        case "m":
+            icon_relatorio = `<div><img src='galery/${tagManutencao}.png' class='icon_manutencao'></div>`;
+            break
+
+        case "a":
+            icon_relatorio = `<div><img src='galery/${tagAtualizado}.png' class='icon_manutencao'></div>`;
+            break
+
+        case "i":
+            icon_relatorio = `<div><img src='galery/${tagIncluido}.png' class='icon_manutencao'></div>`;
+            break
+
+        default:
+            icon_relatorio = `<div><img src='galery/${tagOFF}.png' class='icon_manutencao_off'></div>`;
+
+    }
+
+    return icon_relatorio
+}
+
+
+
 
 function creatlistrel() {
     let icon_relatorio;
@@ -370,27 +427,19 @@ function creatlistrel() {
     let listconstruct = "";
     let Indicconstuct = "";
 
-    let tagManutencao = "<div><img src='galery/manutencao.png' class='icon_manutencao'></div>"
-    let tagManutencao2 = "<div><img src='galery/manutencao.png' class='icon_manutencao_off'></div>"
-
     document.title = "AgroTarget - " + Grupo[tag_seletion].nome;
 
     let ListaRelatorios = Relatorios.filter((item) => item.tag == tag_seletion && item.ativo == true && item.tipo == 1);
     //console.log(Relatorios)
     for (let i = 0; i < ListaRelatorios.length; i++) {
-        console.log(ListaRelatorios)
-        icon_relatorio = ListaRelatorios[i].icon == "m" ? tagManutencao : tagManutencao2;
-        //listconstruct += `<li>${icon_relatorio} ${ListaRelatorios[i].relatorio}</li>`;
+        icon_relatorio = iconeLista(ListaRelatorios[i].icon)
         Indicconstuct += `<button class='bt_relatorios' onclick='loadDash("${ListaRelatorios[i].id}")'> ${icon_relatorio} ${ListaRelatorios[i].relatorio} </button>`
     }
 
     let ListaIndicadores = Relatorios.filter((item) => item.tag == tag_seletion && item.ativo == true && item.tipo == 2);
     for (let i = 0; i < ListaIndicadores.length; i++) {
-        icon_relatorio = ListaIndicadores[i].icon == "m" ? tagManutencao : tagManutencao2;
-        //Indicconstuct += `<li>${icon_relatorio} ${ListaIndicadores[i].relatorio}</li>`;
-        
+        icon_relatorio = iconeLista(ListaIndicadores[i].icon)
         Indicconstuct += `<button class='bt_relatorios bt_indic' onclick='loadDash("${ListaIndicadores[i].id}")'> ${icon_relatorio} ${ListaIndicadores[i].relatorio} </button>`
-        //"<button class='bt_relatorios bt_indic' onclick='loadDash("+ListaIndicadores[i].id+")'>"  + icon_relatorio + ListaIndicadores[i].relatorio + "</button>"
     }
 
     list.innerHTML = listconstruct;
