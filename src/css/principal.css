@@ -40,6 +40,8 @@ body{
     border: 2px solid rgb(0, 53, 10);
     background-color: rgb(10, 103, 1);
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .bt_relatorios:hover{
@@ -308,4 +310,15 @@ body{
 .banner_download{
     width: 200px;
 
+}
+
+.icon_manutencao{
+    width: 30px;
+    margin: 0 10px;
+}
+
+.icon_manutencao_off{
+    width: 30px;
+    margin: 0 10px;
+    opacity: 0%;
 }
