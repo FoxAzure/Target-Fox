@@ -184,7 +184,7 @@ const Relatorios = [
 
     //Irrigação
     {icon: "", id:1000, tag: 9,tipo: 1, relatorio: "Avaliação da Casa de Bomba", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMzRmNzBjN2ItOGM1Zi00OTVkLWI0YjctNDVmYTJkMGY2NjZlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
-    {icon: "m", id:1001, tag: 9,tipo: 1, relatorio: "Avaliação de Gotejamento", ativo: true, url: "", url_full: ""},
+    {icon: "i", id:1001, tag: 9,tipo: 1, relatorio: "Avaliação de Gotejamento", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTc1NDY2NDUtMzhmNi00MTYyLTk0MmMtNWI3NTYyYjI1NzBhIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
     
 
 ]
