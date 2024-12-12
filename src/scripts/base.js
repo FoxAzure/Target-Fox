@@ -102,6 +102,7 @@ const Relatorios = [
     {icon: "m", id:104, tag: 0,tipo: 1, relatorio: "Perdas Mecanizada - Ponto a Ponto", ativo: true, url: "", url_full: ""},
     {icon: "m", id:105, tag: 0,tipo: 1, relatorio: "Perdas Manual - Ponto a Ponto", ativo: true, url: "", url_full: ""},
     {icon: "m", id:106, tag: 0,tipo: 1, relatorio: "Resumo IUP", ativo: true, url: "", url_full: ""},
+    {icon: "i", id:107, tag: 0,tipo: 1, relatorio: "Casas de Bomba Avaliadas", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNzkzZDM4MGItMTlhOC00YmQxLWJmM2UtODI2YTU3MGNhMGI5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
 
 
     //Boletim Diário
@@ -184,8 +185,8 @@ const Relatorios = [
 
     //Irrigação
     {icon: "", id:1000, tag: 9,tipo: 1, relatorio: "Avaliação da Casa de Bomba", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMzRmNzBjN2ItOGM1Zi00OTVkLWI0YjctNDVmYTJkMGY2NjZlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
-    {icon: "a", id:1001, tag: 9,tipo: 1, relatorio: "Avaliação de Gotejamento", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTc1NDY2NDUtMzhmNi00MTYyLTk0MmMtNWI3NTYyYjI1NzBhIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
-    {icon: "i", id:1002, tag: 9,tipo: 1, relatorio: "Pressões dos Lotes Resumo", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODlkMzQ3YzEtZWY3Ni00NTE0LTg1ZmEtZTBkOWU1NjdkN2VjIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
+    {icon: "", id:1001, tag: 9,tipo: 1, relatorio: "Avaliação de Gotejamento", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTc1NDY2NDUtMzhmNi00MTYyLTk0MmMtNWI3NTYyYjI1NzBhIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
+    {icon: "", id:1002, tag: 9,tipo: 1, relatorio: "Pressões dos Lotes Resumo", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODlkMzQ3YzEtZWY3Ni00NTE0LTg1ZmEtZTBkOWU1NjdkN2VjIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
     
 
 ]
