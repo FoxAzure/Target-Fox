@@ -322,3 +322,11 @@ body{
     margin: 0 10px;
     opacity: 0%;
 }
+
+
+.atualizacao{
+    width: 100vw;
+    height: 125px;
+
+    overflow-y: hidden;
+}
