@@ -148,7 +148,7 @@ const Relatorios = [
     
     //Semente Mecanizada
     {icon: "", id:500, tag: 4,tipo: 1, relatorio: "Semente Mec - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODQzN2I0MDMtOTMxYy00NzBjLTg3MDYtNjQ3Y2IwNjA0NGMxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
-    {icon: "", id:501, tag: 4,tipo: 1, relatorio: "Semente Mec - Histórico", ativo: false, url: "", url_full: ""},   
+    {icon: "i", id:501, tag: 4,tipo: 1, relatorio: "Semente Mec - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNzk0ZGEyMDYtYjFjMy00ZjQ4LTgxYjUtZTU5ZThjZjgxNmU5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},   
     //indicadores Semente
     {icon: "m", id:1500, tag: 4,tipo: 2, relatorio: "Indicador Semanal - Semente Mecanizada", ativo: true, url: ""},
 
@@ -156,8 +156,9 @@ const Relatorios = [
     //Plantio Mecanizado
     //{icon: "", id:600, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "", url_full: ""},
     {icon: "", id:603, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzAzODFiZTgtM2ZjMC00MTJiLWI1YTEtNjU5ODEzZDJmNjlkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {icon: "", id:601, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Histórico", ativo: false, url: ""},
-    {icon: "", id:602, tag: 5,tipo: 1, relatorio: "Plantio Manual - Última Avaliação", ativo: false, url: ""},
+    {icon: "i", id:601, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTUzMDU1YjItYWMyOS00MWJhLWJlNzEtYzA5NDMyMGUwOGEyIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "i", id:602, tag: 5,tipo: 1, relatorio: "Plantio Manual - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZDFiM2I4ZDEtYzlhOC00ZmY3LWE0MjUtZTE5YTJhZmY0NDk4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "", id:603, tag: 5,tipo: 1, relatorio: "Plantio Manual - Histórico", ativo: false, url: ""},
     //indicadores Plantio
     {icon: "m", id:1600, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Mecanizado", ativo: true, url: ""},
     {icon: "m", id:1601, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Manual", ativo: true, url: ""},
@@ -199,7 +200,7 @@ const Grupo = [
     {id: 2, tag: 2, nome: "Perdas na Colheita", level: "1", ativo: true},
     {id: 3, tag: 3, nome: "Preparo de Solo", level: "1", ativo: true},
     {id: 4, tag: 4, nome: "Semente Mecanizada", level: "1", ativo: true},
-    {id: 5, tag: 5, nome: "Plantio Mecanizado", level: "1", ativo: true},
+    {id: 5, tag: 5, nome: "Plantio", level: "1", ativo: true},
     {id: 6, tag: 6, nome: "Tratos Culturais", level: "1", ativo: true},
     {id: 7, tag: 7, nome: "IUP - Índice de Uniformidade do Plantio", level: "1", ativo: true},
     {id: 8, tag: 8, nome: "Infestação Final - Broca", level: "1", ativo: true},
