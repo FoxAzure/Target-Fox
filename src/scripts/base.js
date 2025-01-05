@@ -156,9 +156,9 @@ const Relatorios = [
     //Plantio Mecanizado
     //{icon: "", id:600, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "", url_full: ""},
     {icon: "", id:603, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzAzODFiZTgtM2ZjMC00MTJiLWI1YTEtNjU5ODEzZDJmNjlkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {icon: "i", id:601, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTUzMDU1YjItYWMyOS00MWJhLWJlNzEtYzA5NDMyMGUwOGEyIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {icon: "i", id:602, tag: 5,tipo: 1, relatorio: "Plantio Manual - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZDFiM2I4ZDEtYzlhOC00ZmY3LWE0MjUtZTE5YTJhZmY0NDk4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {icon: "", id:603, tag: 5,tipo: 1, relatorio: "Plantio Manual - Histórico", ativo: false, url: ""},
+    {icon: "", id:601, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTUzMDU1YjItYWMyOS00MWJhLWJlNzEtYzA5NDMyMGUwOGEyIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "", id:602, tag: 5,tipo: 1, relatorio: "Plantio Manual - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZDFiM2I4ZDEtYzlhOC00ZmY3LWE0MjUtZTE5YTJhZmY0NDk4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "i", id:603, tag: 5,tipo: 1, relatorio: "Plantio Manual - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMDMwOTRiODctMWVlMC00YzUzLTg5OTktNGRiMjA3Y2RmN2FlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     //indicadores Plantio
     {icon: "m", id:1600, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Mecanizado", ativo: true, url: ""},
     {icon: "m", id:1601, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Manual", ativo: true, url: ""},
