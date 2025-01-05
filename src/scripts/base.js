@@ -160,8 +160,8 @@ const Relatorios = [
     {icon: "", id:602, tag: 5,tipo: 1, relatorio: "Plantio Manual - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZDFiM2I4ZDEtYzlhOC00ZmY3LWE0MjUtZTE5YTJhZmY0NDk4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {icon: "i", id:603, tag: 5,tipo: 1, relatorio: "Plantio Manual - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMDMwOTRiODctMWVlMC00YzUzLTg5OTktNGRiMjA3Y2RmN2FlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     //indicadores Plantio
-    {icon: "m", id:1600, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Mecanizado", ativo: true, url: ""},
-    {icon: "m", id:1601, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Manual", ativo: true, url: ""},
+    {icon: "a", id:1600, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Mecanizado", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZDM5MmE3MjItZmY0NS00ZTVlLTllZWYtODNiYjBmOWE5ZWM2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "a", id:1601, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Manual", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiOWU1MzNkMmItZmFiMi00M2M5LWEyZWMtNGYzNmI2YzVlM2M2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
 
     //Tratos Culturais
