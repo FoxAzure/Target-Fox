@@ -102,7 +102,7 @@ const Relatorios = [
     {icon: "m", id:104, tag: 0,tipo: 1, relatorio: "Perdas Mecanizada - Ponto a Ponto", ativo: true, url: "", url_full: ""},
     {icon: "m", id:105, tag: 0,tipo: 1, relatorio: "Perdas Manual - Ponto a Ponto", ativo: true, url: "", url_full: ""},
     {icon: "m", id:106, tag: 0,tipo: 1, relatorio: "Resumo IUP", ativo: true, url: "", url_full: ""},
-    {icon: "i", id:107, tag: 0,tipo: 1, relatorio: "Casas de Bomba Avaliadas", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNzkzZDM4MGItMTlhOC00YmQxLWJmM2UtODI2YTU3MGNhMGI5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
+    {icon: "", id:107, tag: 0,tipo: 1, relatorio: "Casas de Bomba Avaliadas", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNzkzZDM4MGItMTlhOC00YmQxLWJmM2UtODI2YTU3MGNhMGI5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
 
 
     //Boletim Diário
@@ -133,7 +133,7 @@ const Relatorios = [
     {icon: "", id:404, tag: 3,tipo: 1, relatorio: "Paralelismo Entre Fitas", ativo: false, url: "", url_full: ""},
     {icon: "", id:405, tag: 3,tipo: 1, relatorio: "Profund. Sulco x Fita Gotejadora", ativo: false, url: "", url_full: ""},
     {icon: "", id:406, tag: 3,tipo: 1, relatorio: "Aplicação de Composto", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYjEyOTNiOWItNTA1Yy00NGRlLTg4MjQtYTcyMTIyYTlmOTQ5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
-    {icon: "", id:407, tag: 3,tipo: 1, relatorio: "Adubação do Sulcamento", ativo: false, url: "", url_full: ""},
+    {icon: "i", id:407, tag: 3,tipo: 1, relatorio: "Adubação do Sulcamento", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTk3YmEyMDQtOGNkMC00NTlhLWFmYmUtNjNhODQ3YjEyMjEzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
        
     
     
@@ -150,7 +150,7 @@ const Relatorios = [
     {icon: "", id:500, tag: 4,tipo: 1, relatorio: "Semente Mec - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODQzN2I0MDMtOTMxYy00NzBjLTg3MDYtNjQ3Y2IwNjA0NGMxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
     {icon: "", id:501, tag: 4,tipo: 1, relatorio: "Semente Mec - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNzk0ZGEyMDYtYjFjMy00ZjQ4LTgxYjUtZTU5ZThjZjgxNmU5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},   
     //indicadores Semente
-    {icon: "a", id:1500, tag: 4,tipo: 2, relatorio: "Indicador Semanal - Semente Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODI0Mzg4ZmMtNzRiYS00Y2JlLWIzMzMtY2EwZjIyNmY5YjI4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "", id:1500, tag: 4,tipo: 2, relatorio: "Indicador Semanal - Semente Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODI0Mzg4ZmMtNzRiYS00Y2JlLWIzMzMtY2EwZjIyNmY5YjI4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
 
     //Plantio Mecanizado
@@ -158,15 +158,15 @@ const Relatorios = [
     {icon: "", id:600, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzAzODFiZTgtM2ZjMC00MTJiLWI1YTEtNjU5ODEzZDJmNjlkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {icon: "", id:601, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTUzMDU1YjItYWMyOS00MWJhLWJlNzEtYzA5NDMyMGUwOGEyIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {icon: "", id:602, tag: 5,tipo: 1, relatorio: "Plantio Manual - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZDFiM2I4ZDEtYzlhOC00ZmY3LWE0MjUtZTE5YTJhZmY0NDk4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {icon: "i", id:603, tag: 5,tipo: 1, relatorio: "Plantio Manual - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMDMwOTRiODctMWVlMC00YzUzLTg5OTktNGRiMjA3Y2RmN2FlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "", id:603, tag: 5,tipo: 1, relatorio: "Plantio Manual - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMDMwOTRiODctMWVlMC00YzUzLTg5OTktNGRiMjA3Y2RmN2FlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     //indicadores Plantio
-    {icon: "a", id:1600, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Mecanizado", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZDM5MmE3MjItZmY0NS00ZTVlLTllZWYtODNiYjBmOWE5ZWM2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {icon: "a", id:1601, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Manual", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiOWU1MzNkMmItZmFiMi00M2M5LWEyZWMtNGYzNmI2YzVlM2M2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "", id:1600, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Mecanizado", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZDM5MmE3MjItZmY0NS00ZTVlLTllZWYtODNiYjBmOWE5ZWM2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "", id:1601, tag: 5,tipo: 2, relatorio: "Indicador Semanal - Plantio Manual", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiOWU1MzNkMmItZmFiMi00M2M5LWEyZWMtNGYzNmI2YzVlM2M2IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
 
     //Tratos Culturais
     {icon: "", id:700, tag: 6,tipo: 1, relatorio: "Avaliação Drone", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMThhMDJiODktMzUwYi00ZDc3LTg3MjItZGIzZjVlY2Q4NDQ5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
-    {icon: "", id:701, tag: 6,tipo: 1, relatorio: "Adubação de Cobertura", ativo: false, url: "", url_full: ""},
+    {icon: "i", id:701, tag: 6,tipo: 1, relatorio: "Adubação de Cobertura", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMDAzMjZmMzQtNmU5Zi00NWE3LTg5ZDEtYzJmYjJhODBmMmU0IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
     {icon: "", id:702, tag: 6,tipo: 1, relatorio: "Vinhaça Localizada", ativo: false, url: "", url_full: ""},
 
 
