@@ -147,7 +147,7 @@ const Relatorios = [
     
     
     //Semente Mecanizada
-    {icon: "", id:500, tag: 4,tipo: 1, relatorio: "Semente Mec - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODQzN2I0MDMtOTMxYy00NzBjLTg3MDYtNjQ3Y2IwNjA0NGMxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
+    {icon: "", id:500, tag: 4,tipo: 1, relatorio: "Semente Mec - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODQzN2I0MDMtOTMxYy00NzBjLTg3MDYtNjQ3Y2IwNjA0NGMxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiNmZkOTgyOTUtZGM3OC00MjBjLWFhYjgtMjkyOWQ1MDkxMTQ1IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {icon: "", id:501, tag: 4,tipo: 1, relatorio: "Semente Mec - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNzk0ZGEyMDYtYjFjMy00ZjQ4LTgxYjUtZTU5ZThjZjgxNmU5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},   
     //indicadores Semente
     {icon: "", id:1500, tag: 4,tipo: 2, relatorio: "Indicador Semanal - Semente Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODI0Mzg4ZmMtNzRiYS00Y2JlLWIzMzMtY2EwZjIyNmY5YjI4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
