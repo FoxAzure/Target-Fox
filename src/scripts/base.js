@@ -148,14 +148,14 @@ const Relatorios = [
     
     //Semente Mecanizada
     {icon: "", id:500, tag: 4,tipo: 1, relatorio: "Semente Mec - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODQzN2I0MDMtOTMxYy00NzBjLTg3MDYtNjQ3Y2IwNjA0NGMxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiNmZkOTgyOTUtZGM3OC00MjBjLWFhYjgtMjkyOWQ1MDkxMTQ1IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {icon: "", id:501, tag: 4,tipo: 1, relatorio: "Semente Mec - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNzk0ZGEyMDYtYjFjMy00ZjQ4LTgxYjUtZTU5ZThjZjgxNmU5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},   
+    {icon: "", id:501, tag: 4,tipo: 1, relatorio: "Semente Mec - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNzk0ZGEyMDYtYjFjMy00ZjQ4LTgxYjUtZTU5ZThjZjgxNmU5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiYzRjODQ1MzItN2Q0Zi00N2ZmLTllODMtMTA2MjhhM2MzODJjIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},   
     //indicadores Semente
     {icon: "", id:1500, tag: 4,tipo: 2, relatorio: "Indicador Semanal - Semente Mecanizada", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODI0Mzg4ZmMtNzRiYS00Y2JlLWIzMzMtY2EwZjIyNmY5YjI4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
 
 
     //Plantio Mecanizado
     //{icon: "", id:600, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "", url_full: ""},
-    {icon: "", id:600, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzAzODFiZTgtM2ZjMC00MTJiLWI1YTEtNjU5ODEzZDJmNjlkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "", id:600, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzAzODFiZTgtM2ZjMC00MTJiLWI1YTEtNjU5ODEzZDJmNjlkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZmVhYmI0MTQtNjViYi00YTdhLTljNmUtMzllOTc0YzE3MTlmIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"} ,
     {icon: "", id:601, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTUzMDU1YjItYWMyOS00MWJhLWJlNzEtYzA5NDMyMGUwOGEyIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {icon: "", id:602, tag: 5,tipo: 1, relatorio: "Plantio Manual - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZDFiM2I4ZDEtYzlhOC00ZmY3LWE0MjUtZTE5YTJhZmY0NDk4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {icon: "", id:603, tag: 5,tipo: 1, relatorio: "Plantio Manual - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMDMwOTRiODctMWVlMC00YzUzLTg5OTktNGRiMjA3Y2RmN2FlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
