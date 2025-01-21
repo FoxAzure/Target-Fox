@@ -165,8 +165,8 @@ const Relatorios = [
 
 
     //Tratos Culturais
-    {icon: "", id:700, tag: 6,tipo: 1, relatorio: "Avaliação Drone", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMThhMDJiODktMzUwYi00ZDc3LTg3MjItZGIzZjVlY2Q4NDQ5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
-    {icon: "i", id:701, tag: 6,tipo: 1, relatorio: "Adubação de Cobertura", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMDAzMjZmMzQtNmU5Zi00NWE3LTg5ZDEtYzJmYjJhODBmMmU0IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
+    {icon: "", id:700, tag: 6,tipo: 1, relatorio: "Avaliação Drone", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMThhMDJiODktMzUwYi00ZDc3LTg3MjItZGIzZjVlY2Q4NDQ5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZDhjOTU0ZjctNGEyOS00OGRlLThiOWUtNWYyM2Y2M2ZiMGUxIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "", id:701, tag: 6,tipo: 1, relatorio: "Adubação de Cobertura", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMDAzMjZmMzQtNmU5Zi00NWE3LTg5ZDEtYzJmYjJhODBmMmU0IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
     {icon: "", id:702, tag: 6,tipo: 1, relatorio: "Vinhaça Localizada", ativo: false, url: "", url_full: ""},
 
 
