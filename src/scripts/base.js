@@ -173,7 +173,7 @@ const Relatorios = [
 
     //IUP
     {icon: "", id:800, tag: 7,tipo: 1, relatorio: "Avaliação IUP", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYTdhYjU4ODctZGY5MC00ZWVlLTk5YTYtNWUyN2E3ZDcwODQ3IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
-    {icon: "i", id:801, tag: 7,tipo: 1, relatorio: "IUP Layers - HEMAV", ativo: true, url: "", url_full: "https://app.powerbi.com/view?r=eyJrIjoiYWI0ZGE4NzctM2FhOS00YTMzLTg1MDQtZTFkYzI0ODEyMjQzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "i", id:801, tag: 7,tipo: 1, relatorio: "IUP Layers - HEMAV", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiY2E5Zjg3NDAtZDNlNi00ZjdiLTk5N2MtNTU1ODg2ZWFmODBlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiYWI0ZGE4NzctM2FhOS00YTMzLTg1MDQtZTFkYzI0ODEyMjQzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     //indicadores IUP
     {icon: "m", id:1800, tag: 7,tipo: 2, relatorio: "Indicador Semanal - IUP", ativo: true, url: ""},
 
