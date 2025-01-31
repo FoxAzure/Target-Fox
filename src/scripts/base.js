@@ -244,6 +244,7 @@ const Autorizado = [
     {id: 30, liberado: [1,4,5,7]},//Murilo
     {id: 31, liberado: [1,2,3,4,5,6,7,8,9]},//DEPA 1
     {id: 32, liberado: [1,2,3,4,5,6,7,8,9]},//DEPA 2
+    {id: 33, liberado: [1,2,3,4,5,6,7,8,9]},//Paulo André
 ]
 
 
