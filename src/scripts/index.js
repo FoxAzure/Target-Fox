@@ -39,6 +39,7 @@ const User = [
     {id: 32, user: "DEPA2", senha: "depa2", name: "DEPA 2", subnick:" ", level: 1},
 
     {id: 33, user: "PAULO ANDRE", senha: "77886", name: "Paulo André", subnick:" ", level: 1},
+    {id: 34, user: "ELIEL", senha: "80267", name: "João Eliel", subnick:" ", level: 1},
 
 ]
 

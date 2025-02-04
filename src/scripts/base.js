@@ -156,7 +156,7 @@ const Relatorios = [
     //Plantio Mecanizado
     //{icon: "", id:600, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "", url_full: ""},
     {icon: "", id:600, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYzAzODFiZTgtM2ZjMC00MTJiLWI1YTEtNjU5ODEzZDJmNjlkIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZmVhYmI0MTQtNjViYi00YTdhLTljNmUtMzllOTc0YzE3MTlmIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"} ,
-    {icon: "", id:601, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTUzMDU1YjItYWMyOS00MWJhLWJlNzEtYzA5NDMyMGUwOGEyIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "", id:601, tag: 5,tipo: 1, relatorio: "Plantio Mecanizado - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTUzMDU1YjItYWMyOS00MWJhLWJlNzEtYzA5NDMyMGUwOGEyIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZmRlNjk2ZGYtNjNjMC00ZTlhLWFmOWYtZTI4NjU1ZGIwZjc4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {icon: "", id:602, tag: 5,tipo: 1, relatorio: "Plantio Manual - Última Avaliação", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiZDFiM2I4ZDEtYzlhOC00ZmY3LWE0MjUtZTE5YTJhZmY0NDk4IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     {icon: "", id:603, tag: 5,tipo: 1, relatorio: "Plantio Manual - Histórico", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMDMwOTRiODctMWVlMC00YzUzLTg5OTktNGRiMjA3Y2RmN2FlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     //indicadores Plantio
@@ -245,6 +245,7 @@ const Autorizado = [
     {id: 31, liberado: [1,2,3,4,5,6,7,8,9]},//DEPA 1
     {id: 32, liberado: [1,2,3,4,5,6,7,8,9]},//DEPA 2
     {id: 33, liberado: [1,2,3,4,5,6,7,8,9]},//Paulo André
+    {id: 34, liberado: [1,6]},//João Eliel - Tratos
 ]
 
 
