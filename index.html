@@ -1,35 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Target - Login</title>
+    <title>AgroTarget - Agrovale</title>
     <link rel="stylesheet" href="src/css/principal.css">
     <link rel="stylesheet" href="src/css/login.css">
     <link rel="shortcut icon" href="galery/favicon4.png" type="image/x-icon">
 </head>
 <body onload="checkConected()">
-    
-    <div class="backgroun_login">
-        
-        <div class="login_box">
-            <img src="galery/logofull1.png" alt="logo_AgroTarget" class="logo_tela_login">
-            <input type="text" class="input_login" name="" id="user" placeholder="Login">
-            <input type="password" class="input_login" name="" id="senha" placeholder="Senha">
-            <button  class="submit" onclick="validarlogin()">Entrar</button>
-
-            <div class="opcoes_box">
-                <a href="p/alterar.html">Esqueci minha senha</a>
-                <a href="p/cadastro.html">Solicite seu login</a>
-            </div>
-
+    <div class="login-container">
+        <img src="galery/logofull1.png" alt="Logo" class="login-logo">
+        <div class="alternative-options">
+            <button class="guest-button" onclick="EntrarSemConta()">Acessar sem Conta</button>
+            <button class="login-button" onclick="showLoginForm()">Fazer Login</button>
         </div>
-
-        
+        <form id="login-form" class="hidden">
+            <input type="text" placeholder="Usuário" required id="user">
+            <input type="password" placeholder="Senha" required id="senha">
+            <button type="submit" onclick="validarlogin()">Entrar</button>
+        </form>
     </div>
-
-    
-
     <script src="src/scripts/index.js"></script>
 </body>
 </html>

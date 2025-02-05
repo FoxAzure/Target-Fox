@@ -60,6 +60,8 @@ function validarlogin(){
     )
     if(resultado.length>0){
 
+
+
         let userName = resultado[0].user
         let nickName = resultado[0].name
         let levelUser = resultado[0].level
@@ -80,6 +82,27 @@ function validarlogin(){
     }
 }
 
+
+function EntrarSemConta(){
+    let resultado = User[4]
+
+    console.log(resultado)
+
+    let userName = resultado.user
+    let nickName = resultado.name
+    let levelUser = resultado.level
+    let subnick = resultado.subnick
+    let userID = resultado.id
+
+    localStorage.setItem("target_User",userName)
+    localStorage.setItem("target_Name",nickName)
+    localStorage.setItem("target_Level",levelUser)
+    localStorage.setItem("target_Subnick",subnick)
+    localStorage.setItem("target_id",userID)
+
+    window.location.assign("../inicio.html")
+
+}
 
 
 function checklogin(){
@@ -129,4 +152,15 @@ function quitlogin(){
     localStorage.removeItem("target_Name")
     localStorage.removeItem("target_Level")
     window.location.assign("../index.html")
+}
+
+
+
+function showLoginForm() {
+    const loginForm = document.getElementById('login-form');
+    if (loginForm.classList.contains('show')) {
+        loginForm.classList.remove('show');
+    } else {
+        loginForm.classList.add('show');
+    }
 }
