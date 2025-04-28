@@ -97,6 +97,7 @@ const RelatoriosOLD = [
 const Relatorios = [
     //Equipe da Qualidade
     {icon: "m", id:100, tag: 0,tipo: 1, relatorio: "Acompanhamento da Equipe", ativo: true, url: "", url_full: ""},
+    {icon: "", id:108, tag: 0,tipo: 1, relatorio: "TCH Estimado", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMmEyNDE5ZjktYWE3Mi00ZjhlLThlNDQtN2YyNmU2YWNiYzE3IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
     {icon: "m", id:101, tag: 0,tipo: 1, relatorio: "Acompanhamento Colhedoras", ativo: true, url: ""},
     {icon: "m", id:103, tag: 0,tipo: 1, relatorio: "Acompanhamento Datas de Plantio", ativo: true, url: "", url_full: ""},
     {icon: "m", id:104, tag: 0,tipo: 1, relatorio: "Perdas Mecanizada - Ponto a Ponto", ativo: true, url: "", url_full: ""},
@@ -104,7 +105,7 @@ const Relatorios = [
     {icon: "m", id:106, tag: 0,tipo: 1, relatorio: "Resumo IUP", ativo: true, url: "", url_full: ""},
     {icon: "", id:107, tag: 0,tipo: 1, relatorio: "Casas de Bomba Avaliadas", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiNzkzZDM4MGItMTlhOC00YmQxLWJmM2UtODI2YTU3MGNhMGI5IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
 
-
+//
     //Boletim Diário
     {icon: "", id:200, tag: 1,tipo: 1, relatorio: "Boletim Diário da Qualidade", ativo: true, url: ""},
    
@@ -173,7 +174,7 @@ const Relatorios = [
 
     //IUP
     {icon: "", id:800, tag: 7,tipo: 1, relatorio: "Avaliação IUP", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiYTdhYjU4ODctZGY5MC00ZWVlLTk5YTYtNWUyN2E3ZDcwODQ3IiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: ""},
-    {icon: "i", id:801, tag: 7,tipo: 1, relatorio: "IUP Layers - HEMAV", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiY2E5Zjg3NDAtZDNlNi00ZjdiLTk5N2MtNTU1ODg2ZWFmODBlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiYWI0ZGE4NzctM2FhOS00YTMzLTg1MDQtZTFkYzI0ODEyMjQzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "", id:801, tag: 7,tipo: 1, relatorio: "IUP Layers - HEMAV", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiY2E5Zjg3NDAtZDNlNi00ZjdiLTk5N2MtNTU1ODg2ZWFmODBlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiYWI0ZGE4NzctM2FhOS00YTMzLTg1MDQtZTFkYzI0ODEyMjQzIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     //indicadores IUP
     {icon: "m", id:1800, tag: 7,tipo: 2, relatorio: "Indicador Semanal - IUP", ativo: true, url: ""},
 
@@ -185,9 +186,9 @@ const Relatorios = [
 
 
     //Irrigação
-    {icon: "a", id:1000, tag: 9,tipo: 1, relatorio: "Avaliação da Casa de Bomba", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMzRmNzBjN2ItOGM1Zi00OTVkLWI0YjctNDVmYTJkMGY2NjZlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiYjNjNzJiNDQtNTM4ZS00ODE0LTg2MWQtZjdhMTMxNmQ5YzRiIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {icon: "a", id:1001, tag: 9,tipo: 1, relatorio: "Avaliação de Gotejamento", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTc1NDY2NDUtMzhmNi00MTYyLTk0MmMtNWI3NTYyYjI1NzBhIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZjk0YTNjNzQtNjNjOC00ZTgzLTg0YWMtZDAwZTE3ZTk2YmFmIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
-    {icon: "a", id:1002, tag: 9,tipo: 1, relatorio: "Pressões dos Lotes Resumo", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODlkMzQ3YzEtZWY3Ni00NTE0LTg1ZmEtZTBkOWU1NjdkN2VjIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiNzRkZDEwN2UtMGZlYS00OWFiLWFkMjQtMmQ4YWVjZjg1MDBlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "", id:1000, tag: 9,tipo: 1, relatorio: "Avaliação da Casa de Bomba", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMzRmNzBjN2ItOGM1Zi00OTVkLWI0YjctNDVmYTJkMGY2NjZlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiYjNjNzJiNDQtNTM4ZS00ODE0LTg2MWQtZjdhMTMxNmQ5YzRiIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "", id:1001, tag: 9,tipo: 1, relatorio: "Avaliação de Gotejamento", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiMTc1NDY2NDUtMzhmNi00MTYyLTk0MmMtNWI3NTYyYjI1NzBhIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiZjk0YTNjNzQtNjNjOC00ZTgzLTg0YWMtZDAwZTE3ZTk2YmFmIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
+    {icon: "", id:1002, tag: 9,tipo: 1, relatorio: "Pressões dos Lotes Resumo", ativo: true, url: "https://app.powerbi.com/view?r=eyJrIjoiODlkMzQ3YzEtZWY3Ni00NTE0LTg1ZmEtZTBkOWU1NjdkN2VjIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9", url_full: "https://app.powerbi.com/view?r=eyJrIjoiNzRkZDEwN2UtMGZlYS00OWFiLWFkMjQtMmQ4YWVjZjg1MDBlIiwidCI6IjdkYjQwZjM0LTk1MzYtNGJiNC1iODVhLThhZDViMjEwODU0OCJ9"},
     
 
 ]
