@@ -1,7 +1,7 @@
 import { Analytics } from "@vercel/analytics/next"
 import { inject } from "@vercel/analytics";
 
-inject()
+//inject()
 
 const User = [
     {id: 0, user: "ADMIN", senha: "@target556", name: "Administrador", subnick:"Administrador Geral", level: 0},
