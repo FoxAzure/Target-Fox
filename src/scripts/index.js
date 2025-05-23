@@ -1,7 +1,7 @@
 import { Analytics } from "@vercel/analytics/next"
 import { inject } from "@vercel/analytics";
 
-
+inject()
 
 const User = [
     {id: 0, user: "ADMIN", senha: "@target556", name: "Administrador", subnick:"Administrador Geral", level: 0},
@@ -54,7 +54,7 @@ let txt_senha;
 let txt_userUP;
 
 function validarlogin(){
-    inject()
+    
     txt_user = document.querySelector("#user").value
     txt_senha = document.querySelector("#senha").value
     
