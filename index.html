@@ -1,26 +1,191 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AgroTarget - Agrovale</title>
-    <link rel="stylesheet" href="src/css/principal.css">
-    <link rel="stylesheet" href="src/css/login.css">
-    <link rel="shortcut icon" href="galery/favicon4.png" type="image/x-icon">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AgroTarget — Em manutenção</title>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <style>
+    :root{
+      --green-1:#36b37e;
+      --green-2:#2e8b57;
+      --green-3:#1f6f4a;
+      --bg:#ffffff;
+      --text:#1b1b1b;
+      --radius:14px;
+      --shadow:0 6px 20px rgba(0,0,0,.08);
+    }
+    *{ box-sizing:border-box; }
+    html, body{ height:100%; }
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+      color:var(--text);
+      background:var(--bg);
+      display:flex;
+      flex-direction:column;
+      min-height:100vh;
+    }
+    header.header{
+      background: linear-gradient(to bottom, var(--green-1), var(--green-2));
+      color:#fff;
+      padding:12px 18px;
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+    .header img.logo{
+      width:50px; height:50px; object-fit:contain;
+      filter: drop-shadow(0 1px 1px rgba(0,0,0,.15));
+    }
+    .header .brand{
+      font-weight:800;
+      letter-spacing:.2px;
+      font-size: clamp(18px, 2.5vw, 22px);
+      text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    }
+    main{
+      display:flex;
+      flex-direction:column;
+      flex:1;
+      padding: 16px;
+    }
+    .center{
+      flex:1;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding: 16px 8px;
+    }
+    .hero{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap:12px;
+    }
+    .hero img.icon{ width:100px; height:100px; object-fit:contain; }
+    @media (max-width:600px){ .hero img.icon{ width:70px; height:70px; } }
+    .hero h1{
+      margin:0;
+      font-size: clamp(20px, 3.5vw, 28px);
+      font-weight:800;
+      letter-spacing:.2px;
+    }
+    .accordion{
+      width: min(720px, 100%);
+      margin: 8px auto 0;
+    }
+    .accordion button.toggle{
+      width:100%;
+      border:0;
+      cursor:pointer;
+      color:var(--green-3);
+      background: linear-gradient(180deg, rgba(54,179,126,.14), rgba(46,139,87,.22));
+      padding:14px 16px;
+      font-weight:700;
+      border-radius: var(--radius);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      box-shadow: var(--shadow);
+      transition: filter .2s ease, transform .06s ease;
+      user-select:none;
+    }
+    .accordion button.toggle:hover{ filter: saturate(1.05) brightness(1.02); }
+    .accordion button.toggle:active{ transform: translateY(1px); }
+    .accordion .panel{
+      overflow:hidden;
+      max-height:0;
+      transition: max-height .25s ease;
+      background:#f6fbf8;
+      border:1px solid rgba(46,139,87,.18);
+      border-radius: var(--radius);
+      margin-top:10px;
+      padding:0 16px;
+    }
+    .accordion .panel.open{ padding:16px; }
+    .panel p{
+      margin:0;
+      color:#1f3b2e;
+      font-weight:600;
+      text-align:center;
+    }
+    footer.footer{
+      background: linear-gradient(to bottom, var(--green-1), var(--green-2));
+      color:#eaf7f0;
+      text-align:center;
+      padding:16px 12px;
+      margin-top: auto;
+    }
+    .footer p{ margin:0; line-height:1.35; text-shadow: 0 1px 0 rgba(0,0,0,.08); }
+    .footer .small{ font-size:12px; opacity:.95; }
+    .footer .name{ font-size:14px; font-weight:800; margin-top:4px; letter-spacing:.2px; }
+  </style>
 </head>
-<body onload="checkConected()">
-    <div class="login-container">
-        <img src="galery/logofull1.png" alt="Logo" class="login-logo">
-        <div class="alternative-options">
-            <button class="guest-button" onclick="EntrarSemConta()">Acessar sem Conta</button>
-            <button class="login-button" onclick="showLoginForm()">Fazer Login</button>
-        </div>
-        <form id="login-form" class="hidden">
-            <input type="text" placeholder="Usuário" required id="user">
-            <input type="password" placeholder="Senha" required id="senha">
-            <button type="submit" onclick="validarlogin()">Entrar</button>
-        </form>
+<body>
+  <header class="header" role="banner">
+    <img src="logo.png" alt="" class="logo">
+    <div class="brand">AgroTarget</div>
+  </header>
+  <main>
+    <div class="center">
+      <section class="hero" aria-label="Estado do sistema">
+        <img src="icon.png" alt="" class="icon">
+        <h1>Em manutenção</h1>
+      </section>
     </div>
-    <script src="src/scripts/index.js"></script>
+    <section class="accordion" aria-label="Mais informações">
+      <button class="toggle" aria-expanded="false" aria-controls="info-panel" title="Abrir detalhes">
+        <span class="arrow" aria-hidden="true"></span>
+        <span class="label">Informações</span>
+      </button>
+      <div id="info-panel" class="panel" hidden>
+        <p>Aplicação em manutenção por tempo indeterminado</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="small">Desenvolvido Por</p>
+    <p class="name">Paulo Roberto</p>
+  </footer>
+  <script>
+    (function(){
+      const btn = document.querySelector('.accordion .toggle');
+      const panel = document.getElementById('info-panel');
+      const arrow = btn.querySelector('.arrow');
+      const label = btn.querySelector('.label');
+      function setOpen(open){
+        btn.setAttribute('aria-expanded', String(open));
+        if(open){
+          panel.hidden = false;
+          panel.classList.add('open');
+          panel.style.maxHeight = panel.scrollHeight + 'px';
+          arrow.textContent = '';
+          label.textContent = 'Fechar';
+          btn.title = 'Fechar detalhes';
+        }else{
+          panel.style.maxHeight = panel.scrollHeight + 'px';
+          requestAnimationFrame(()=>{
+            panel.classList.remove('open');
+            panel.style.maxHeight = '0px';
+          });
+          arrow.textContent = '';
+          label.textContent = 'Informações';
+          btn.title = 'Abrir detalhes';
+        }
+      }
+      btn.addEventListener('click', ()=>{
+        const isOpen = btn.getAttribute('aria-expanded') === 'true';
+        setOpen(!isOpen);
+      });
+      panel.addEventListener('transitionend', (e)=>{
+        if(e.propertyName === 'max-height' && btn.getAttribute('aria-expanded') === 'false'){
+          panel.hidden = true;
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
